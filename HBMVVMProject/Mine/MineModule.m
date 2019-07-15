@@ -7,7 +7,12 @@
 //
 
 #import "MineModule.h"
+#import "MineViewController.h"
+#import "HBRouter.h"
 
 @implementation MineModule
-
+HBROUTER_EXTERN_METHOD(MineModule,MineModuleexportInterface, arg, callback) {
+    MineViewController *mineVC = [[MineViewController alloc] init];
+    return mineVC;
+}
 @end

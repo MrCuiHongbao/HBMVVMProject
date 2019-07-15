@@ -10,5 +10,8 @@ target 'HBMVVMProject' do
  #pod 'ZYImageDownloader', '~> 0.1.0'
  pod 'AFNetworking'
  pod 'Masonry', '~> 1.1.0'
- #pod 'ReactiveCocoa'
+ pod 'ReactiveObjC'
+ pod 'SDRouter', '~> 1.0.0'
+ pod 'JLRoutes', '~> 2.1'
+
 end

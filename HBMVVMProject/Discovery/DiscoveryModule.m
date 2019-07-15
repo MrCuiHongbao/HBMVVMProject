@@ -7,7 +7,12 @@
 //
 
 #import "DiscoveryModule.h"
+#import "DiscoveryViewController.h"
+#import "HBRouter.h"
 
 @implementation DiscoveryModule
-
+HBROUTER_EXTERN_METHOD(DiscoveryModule,DiscoveryModuleexportInterface, arg, callback) {
+    DiscoveryViewController *mineVC = [[DiscoveryViewController alloc] init];
+    return mineVC;
+}
 @end

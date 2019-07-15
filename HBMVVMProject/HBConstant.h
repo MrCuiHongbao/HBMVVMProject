@@ -7,6 +7,10 @@
 //
 
 #import <Foundation/Foundation.h>
+FOUNDATION_EXTERN NSString *const AppSchema;
+FOUNDATION_EXTERN NSString *const OneController;
+FOUNDATION_EXTERN NSString *const TwoController;
+FOUNDATION_EXTERN NSString *const ThreeController;
 
 NS_ASSUME_NONNULL_BEGIN
 

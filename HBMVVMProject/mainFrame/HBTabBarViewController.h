@@ -12,6 +12,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface HBTabBarViewController : UITabBarController
 
+- (instancetype)initWithViewControllers:(NSDictionary *)dict;
 @end
 
 NS_ASSUME_NONNULL_END

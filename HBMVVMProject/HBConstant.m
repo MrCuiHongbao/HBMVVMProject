@@ -9,5 +9,11 @@
 #import "HBConstant.h"
 
 @implementation HBConstant
+NSString *const AppSchema = @"openmvvm";
 
+NSString *const OneController = @"router://oneController";
+
+NSString *const TwoController = @"router://twoController";
+
+NSString *const ThreeController = @"router://threeController";
 @end

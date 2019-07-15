@@ -7,7 +7,12 @@
 //
 
 #import "HBTabBarModule.h"
-
+#import "HBRouter.h"
+#import "HBTabBarViewController.h"
 @implementation HBTabBarModule
 
+HBROUTER_EXTERN_METHOD(HBTabBarModule,HBTabBaexportInterface, arg, callback) {
+    HBTabBarViewController *tabVC = [[HBTabBarViewController alloc] initWithViewControllers:arg];
+    return tabVC;
+}
 @end

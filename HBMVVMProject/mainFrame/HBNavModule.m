@@ -7,7 +7,15 @@
 //
 
 #import "HBNavModule.h"
-
+#import "HBNavigationController.h"
+#import "HBRouter.h"
 @implementation HBNavModule
-
+HBROUTER_EXTERN_METHOD(HBNavModule,HBNavModuleexportInterface, arg, callback) {
+    UIViewController *rootVC = [arg objectForKey:@"rootVC"];
+    if (!rootVC) {
+        return nil;
+    }
+    HBNavigationController *vc = [[HBNavigationController alloc] initWithRootViewController:rootVC];
+    return vc;
+}
 @end

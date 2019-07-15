@@ -7,7 +7,11 @@
 //
 
 #import "HomeModule.h"
-
+#import "HBRouter.h"
+#import "HomeViewController.h"
 @implementation HomeModule
-
+HBROUTER_EXTERN_METHOD(HomeModule,HomeModuleexportInterface, arg, callback) {
+    HomeViewController *mineVC = [[HomeViewController alloc] init];
+    return mineVC;
+}
 @end

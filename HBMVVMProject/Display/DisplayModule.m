@@ -7,7 +7,11 @@
 //
 
 #import "DisplayModule.h"
-
+#import "DisplayViewController.h"
+#import "HBRouter.h"
 @implementation DisplayModule
-
+HBROUTER_EXTERN_METHOD(DisplayModule,DisplayModuleexportInterface, arg, callback) {
+    DisplayViewController *mineVC = [[DisplayViewController alloc] init];
+    return mineVC;
+}
 @end
