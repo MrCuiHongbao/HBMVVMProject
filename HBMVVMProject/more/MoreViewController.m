@@ -1,23 +1,22 @@
 //
-//  HBBaseViewController.m
+//  MoreViewController.m
 //  HBMVVMProject
 //
-//  Created by hongbao.cui on 2019/7/9.
-//  Copyright © 2019年 hongbao.cui. All rights reserved.
+//  Created by hongbao.cui on 2020/1/22.
+//  Copyright © 2020 hongbao.cui. All rights reserved.
 //
 
-#import "HBBaseViewController.h"
+#import "MoreViewController.h"
 
-@interface HBBaseViewController ()
+@interface MoreViewController ()
 
 @end
 
-@implementation HBBaseViewController
+@implementation MoreViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    self.view.backgroundColor = [UIColor whiteColor];
 }
 
 /*

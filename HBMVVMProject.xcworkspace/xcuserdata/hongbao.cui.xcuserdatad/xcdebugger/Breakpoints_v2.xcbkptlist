@@ -1,134 +1,215 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Bucket
+   uuid = "EBDA8408-2AFB-4351-9745-A2B20CED11BC"
    type = "0"
    version = "2.0">
    <Breakpoints>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
+            uuid = "B76BB99B-AAA0-49BC-AEFA-A2966797DDFE"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "HBMVVMProject/AppDelegate.m"
-            timestampString = "584368840.221375"
+            filePath = "HBMVVMProject/openGL/GLTools/HBGLTool.m"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "45"
-            endingLineNumber = "45"
-            landmarkName = "-str:"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "-draw"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
+            uuid = "85EA3450-9B9A-490F-AABE-51A572259B5E"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "HBMVVMProject/mainFrame/HBTabBarViewController.m"
-            timestampString = "584368840.221625"
+            filePath = "HBMVVMProject/openGL/GLTools/HBGLDrawTools.m"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "24"
-            endingLineNumber = "24"
-            landmarkName = "-initWithViewControllers:"
+            startingLineNumber = "72"
+            endingLineNumber = "72"
+            landmarkName = "-draw:"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "-[HBTabBarViewController initWithViewControllers:]"
-                  moduleName = "HBMVVMProject"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/hongbao.cui/Desktop/Myworkspace/HBMVVMProject/HBMVVMProject/mainFrame/HBTabBarViewController.m"
-                  timestampString = "584368157.829802"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "23"
-                  endingLineNumber = "23"
-                  offsetFromSymbolStart = "596">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "__50-[HBTabBarViewController initWithViewControllers:]_block_invoke"
-                  moduleName = "HBMVVMProject"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/hongbao.cui/Desktop/Myworkspace/HBMVVMProject/HBMVVMProject/mainFrame/HBTabBarViewController.m"
-                  timestampString = "584368157.831936"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "24"
-                  endingLineNumber = "24"
-                  offsetFromSymbolStart = "48">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
+            uuid = "47421634-61BB-4508-86C5-0AD21467DCAD"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "HBMVVMProject/mainFrame/HBNavModule.m"
-            timestampString = "584368840.2220581"
+            filePath = "HBMVVMProject/openGL/GLTools/HBGLDrawTools.m"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "19"
-            endingLineNumber = "19"
-            landmarkName = "HBROUTER_EXTERN_METHOD"
+            startingLineNumber = "65"
+            endingLineNumber = "65"
+            landmarkName = "-draw:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C01FE952-3B32-4156-ACA0-833E957CC0E0"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HBMVVMProject/openGL/GLCameraRender/JDARVRGLContext.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "234"
+            endingLineNumber = "234"
+            landmarkName = "linkProgram(prog)"
             landmarkType = "9">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
+            uuid = "CCBC6810-56BC-47CF-B991-08168B7ED7EB"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "HBMVVMProject/AppDelegate.m"
-            timestampString = "584368840.2221251"
+            filePath = "HBMVVMProject/openGL/GLTools/HBGLToolContext.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "134"
+            endingLineNumber = "134"
+            landmarkName = "link_Program(prog)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C30DAA10-698E-4475-95A0-9AB6C6DCE5A1"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HBMVVMProject/openGL/GLTools/HBGLToolContext.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "26"
+            endingLineNumber = "26"
+            landmarkName = "-active"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A352ECF2-9CC1-4D6A-A702-5B4A693F4016"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HBMVVMProject/openGL/OpenGLViewController.m"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "28"
             endingLineNumber = "28"
-            landmarkName = "-application:didFinishLaunchingWithOptions:"
+            landmarkName = "-viewDidLoad"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "-[AppDelegate application:didFinishLaunchingWithOptions:]"
-                  moduleName = "HBMVVMProject"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/hongbao.cui/Desktop/Myworkspace/HBMVVMProject/HBMVVMProject/AppDelegate.m"
-                  timestampString = "584368157.839968"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "28"
-                  endingLineNumber = "28"
-                  offsetFromSymbolStart = "600">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "__57-[AppDelegate application:didFinishLaunchingWithOptions:]_block_invoke_2"
-                  moduleName = "HBMVVMProject"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/hongbao.cui/Desktop/Myworkspace/HBMVVMProject/HBMVVMProject/AppDelegate.m"
-                  timestampString = "584368157.841575"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "29"
-                  endingLineNumber = "29"
-                  offsetFromSymbolStart = "48">
-               </Location>
-            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D02BE81E-753C-4FF3-A206-C69EC63CABEF"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HBMVVMProject/openGL/GLTools/HBGLToolContext.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "50"
+            endingLineNumber = "50"
+            landmarkName = "create_Program(vertexShader, fragmentShader, pProgram)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "61FEC36B-105E-4B2D-B3A4-8107429F8E87"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HBMVVMProject/openGL/GLTools/HBGLToolContext.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "68"
+            endingLineNumber = "68"
+            landmarkName = "create_Program(vertexShader, fragmentShader, pProgram)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1983B7B3-868B-4252-B903-AA892EF192BE"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HBMVVMProject/openGL/GLTools/HBGLToolContext.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "123"
+            endingLineNumber = "123"
+            landmarkName = "link_Program(prog)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1418BCED-11EA-4486-B161-0433CE03021A"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HBMVVMProject/openGL/GLTools/HBGLToolContext.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "157"
+            endingLineNumber = "157"
+            landmarkName = "-setupShader:fragmentShaderContent:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5E18087E-8E87-478C-A59E-8B200FE4F9E3"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HBMVVMProject/openGL/GLTools/HBGLToolContext.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "131"
+            endingLineNumber = "131"
+            landmarkName = "link_Program(prog)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FC8401B5-551D-4754-BB17-B283723BC8CA"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HBMVVMProject/openGL/GLTools/HBGLToolContext.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "34"
+            endingLineNumber = "34"
+            landmarkName = "-bindAttribs:"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

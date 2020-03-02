@@ -21,13 +21,14 @@
     // Override point for customization after application launch.
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     
-    NSDictionary *viewsViewController = @{@"HBTabBarModule":@[@"HomeModule",@"DisplayModule",@"DiscoveryModule",@"MineModule"]};
+    NSDictionary *viewsViewController = @{@"HBTabBarModule":@[@"HomeModule",@"DisplayModule",@"DiscoveryModule",@"MineModule",@"MoneyModule",@"MoreModule",@"OpenGLModule"],@"HBTabBarIconName":@[@"integral",@"all",@"cameraswitching",@"bussiness-man",@"category",@"cameraswitching",@"add-account"],@"HBTabBarTitle":@[@"首页",@"列表",@"类别",@"我的",@"财富",@"相机",@"openGL"]};
     UIViewController  *tabBar = [HBRouter openURL:@"router://HBTabBarModule/HBTabBaexportInterface" arg:viewsViewController error:nil completion:^(id  _Nullable object) {
         NSLog(@"object----->%@",object);
     }];
     HBNavigationController  *nav = [HBRouter openURL:@"router://HBNavModule/HBNavModuleexportInterface" arg:@{@"rootVC":tabBar} error:nil completion:^(id  _Nullable object) {
         NSLog(@"object----->%@",object);
     }];
+    [nav.navigationBar setHidden:YES];
     self.window.rootViewController = nav;
     [self.window makeKeyAndVisible];
     return YES;

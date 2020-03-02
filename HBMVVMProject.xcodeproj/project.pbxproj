@@ -16,6 +16,10 @@
 		3A098B9522C61BE20007F5EB /* HBMVVMProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A098B9422C61BE20007F5EB /* HBMVVMProjectTests.m */; };
 		3A098BA022C61BE20007F5EB /* HBMVVMProjectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A098B9F22C61BE20007F5EB /* HBMVVMProjectUITests.m */; };
 		3A098BB022CB5EAA0007F5EB /* HBTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A098BAF22CB5EAA0007F5EB /* HBTabBarViewController.m */; };
+		3A46208A23FE9C3E009A4609 /* HBGLDrawTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A46208923FE9C3E009A4609 /* HBGLDrawTools.m */; };
+		3A46208D23FE9C77009A4609 /* HBGLObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A46208C23FE9C77009A4609 /* HBGLObject.m */; };
+		3A46209023FEA32F009A4609 /* HBGLTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A46208E23FEA32F009A4609 /* HBGLTool.m */; };
+		3A764F3D23B618680052B1E9 /* images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A764F3C23B618680052B1E9 /* images.xcassets */; };
 		3A8A378F22D350A400F12124 /* HBRouterUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A8A378E22D350A400F12124 /* HBRouterUtils.m */; };
 		3A8A379222D4813300F12124 /* HBTabBarModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A8A379122D4813300F12124 /* HBTabBarModule.m */; };
 		3A8A379822D4A4A000F12124 /* HBNavModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A8A379722D4A49F00F12124 /* HBNavModule.m */; };
@@ -29,6 +33,20 @@
 		3A8A37B422D4BCD400F12124 /* DiscoveryModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A8A37B322D4BCD400F12124 /* DiscoveryModule.m */; };
 		3A8A37B722D4BCE000F12124 /* MineModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A8A37B622D4BCE000F12124 /* MineModule.m */; };
 		3A8A37BA22D4C07100F12124 /* HBBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A8A37B922D4C07100F12124 /* HBBaseViewController.m */; };
+		3A8ED7BA23D82E3A00823321 /* MoneyModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A8ED7B823D82E3A00823321 /* MoneyModule.m */; };
+		3A8ED7BD23D82E4F00823321 /* MoreModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A8ED7BC23D82E4F00823321 /* MoreModule.m */; };
+		3A8ED7C023D82E6700823321 /* MoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A8ED7BF23D82E6700823321 /* MoreViewController.m */; };
+		3A8ED7C323D82E7600823321 /* MoneyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A8ED7C223D82E7600823321 /* MoneyViewController.m */; };
+		3A8ED7C723D8488700823321 /* OpenGLModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A8ED7C623D8488700823321 /* OpenGLModule.m */; };
+		3A8ED7CA23D848C300823321 /* OpenGLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A8ED7C923D848C300823321 /* OpenGLViewController.m */; };
+		3A8ED7D623D943B300823321 /* JDARVRVideoPlane.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A8ED7CC23D943B300823321 /* JDARVRVideoPlane.m */; };
+		3A8ED7D723D943B300823321 /* JDARVRGLContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A8ED7CD23D943B300823321 /* JDARVRGLContext.m */; };
+		3A8ED7D823D943B300823321 /* JDARVRGLGeometry.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A8ED7D223D943B300823321 /* JDARVRGLGeometry.m */; };
+		3A8ED7D923D943B300823321 /* JDARVRCameraRender.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A8ED7D423D943B300823321 /* JDARVRCameraRender.m */; };
+		3A8ED7DA23D943B300823321 /* JDARVRGLObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A8ED7D523D943B300823321 /* JDARVRGLObject.m */; };
+		3A8ED7DE23D94CB700823321 /* HBGLToolContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A8ED7DD23D94CB700823321 /* HBGLToolContext.m */; };
+		3A95901F23F6902100659C22 /* SimpleFragment.glsl in Resources */ = {isa = PBXBuildFile; fileRef = 3A95901D23F6902000659C22 /* SimpleFragment.glsl */; };
+		3A95902023F6902100659C22 /* SimpleVertex.glsl in Resources */ = {isa = PBXBuildFile; fileRef = 3A95901E23F6902100659C22 /* SimpleVertex.glsl */; };
 		3ADE7C8B22CF480500B1E932 /* HBNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ADE7C8A22CF480500B1E932 /* HBNavigationController.m */; };
 		3ADE7C8F22CF4BC200B1E932 /* HBRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ADE7C8E22CF4BC200B1E932 /* HBRouter.m */; };
 		B447ACDD7F67F8288060148D /* libPods-HBMVVMProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E03B9A647A087C9DF24C4BFB /* libPods-HBMVVMProject.a */; };
@@ -72,6 +90,13 @@
 		3A098BA122C61BE20007F5EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3A098BAE22CB5EAA0007F5EB /* HBTabBarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HBTabBarViewController.h; sourceTree = "<group>"; };
 		3A098BAF22CB5EAA0007F5EB /* HBTabBarViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HBTabBarViewController.m; sourceTree = "<group>"; };
+		3A46208823FE9C3E009A4609 /* HBGLDrawTools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HBGLDrawTools.h; sourceTree = "<group>"; };
+		3A46208923FE9C3E009A4609 /* HBGLDrawTools.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HBGLDrawTools.m; sourceTree = "<group>"; };
+		3A46208B23FE9C77009A4609 /* HBGLObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HBGLObject.h; sourceTree = "<group>"; };
+		3A46208C23FE9C77009A4609 /* HBGLObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HBGLObject.m; sourceTree = "<group>"; };
+		3A46208E23FEA32F009A4609 /* HBGLTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBGLTool.m; sourceTree = "<group>"; };
+		3A46208F23FEA32F009A4609 /* HBGLTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBGLTool.h; sourceTree = "<group>"; };
+		3A764F3C23B618680052B1E9 /* images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = images.xcassets; sourceTree = "<group>"; };
 		3A8A378D22D350A300F12124 /* HBRouterUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HBRouterUtils.h; sourceTree = "<group>"; };
 		3A8A378E22D350A400F12124 /* HBRouterUtils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HBRouterUtils.m; sourceTree = "<group>"; };
 		3A8A379022D4813300F12124 /* HBTabBarModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HBTabBarModule.h; sourceTree = "<group>"; };
@@ -98,6 +123,32 @@
 		3A8A37B622D4BCE000F12124 /* MineModule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MineModule.m; sourceTree = "<group>"; };
 		3A8A37B822D4C07100F12124 /* HBBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HBBaseViewController.h; sourceTree = "<group>"; };
 		3A8A37B922D4C07100F12124 /* HBBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HBBaseViewController.m; sourceTree = "<group>"; };
+		3A8ED7B823D82E3A00823321 /* MoneyModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoneyModule.m; sourceTree = "<group>"; };
+		3A8ED7B923D82E3A00823321 /* MoneyModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoneyModule.h; sourceTree = "<group>"; };
+		3A8ED7BB23D82E4F00823321 /* MoreModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MoreModule.h; sourceTree = "<group>"; };
+		3A8ED7BC23D82E4F00823321 /* MoreModule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MoreModule.m; sourceTree = "<group>"; };
+		3A8ED7BE23D82E6700823321 /* MoreViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MoreViewController.h; sourceTree = "<group>"; };
+		3A8ED7BF23D82E6700823321 /* MoreViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MoreViewController.m; sourceTree = "<group>"; };
+		3A8ED7C123D82E7600823321 /* MoneyViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MoneyViewController.h; sourceTree = "<group>"; };
+		3A8ED7C223D82E7600823321 /* MoneyViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MoneyViewController.m; sourceTree = "<group>"; };
+		3A8ED7C523D8488700823321 /* OpenGLModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OpenGLModule.h; sourceTree = "<group>"; };
+		3A8ED7C623D8488700823321 /* OpenGLModule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OpenGLModule.m; sourceTree = "<group>"; };
+		3A8ED7C823D848C300823321 /* OpenGLViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OpenGLViewController.h; sourceTree = "<group>"; };
+		3A8ED7C923D848C300823321 /* OpenGLViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OpenGLViewController.m; sourceTree = "<group>"; };
+		3A8ED7CC23D943B300823321 /* JDARVRVideoPlane.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDARVRVideoPlane.m; sourceTree = "<group>"; };
+		3A8ED7CD23D943B300823321 /* JDARVRGLContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDARVRGLContext.m; sourceTree = "<group>"; };
+		3A8ED7CE23D943B300823321 /* JDARVRGLGeometry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDARVRGLGeometry.h; sourceTree = "<group>"; };
+		3A8ED7CF23D943B300823321 /* JDARVRGLObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDARVRGLObject.h; sourceTree = "<group>"; };
+		3A8ED7D023D943B300823321 /* JDARVRCameraRender.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDARVRCameraRender.h; sourceTree = "<group>"; };
+		3A8ED7D123D943B300823321 /* JDARVRVideoPlane.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDARVRVideoPlane.h; sourceTree = "<group>"; };
+		3A8ED7D223D943B300823321 /* JDARVRGLGeometry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDARVRGLGeometry.m; sourceTree = "<group>"; };
+		3A8ED7D323D943B300823321 /* JDARVRGLContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDARVRGLContext.h; sourceTree = "<group>"; };
+		3A8ED7D423D943B300823321 /* JDARVRCameraRender.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDARVRCameraRender.m; sourceTree = "<group>"; };
+		3A8ED7D523D943B300823321 /* JDARVRGLObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDARVRGLObject.m; sourceTree = "<group>"; };
+		3A8ED7DC23D94CB700823321 /* HBGLToolContext.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HBGLToolContext.h; sourceTree = "<group>"; };
+		3A8ED7DD23D94CB700823321 /* HBGLToolContext.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HBGLToolContext.m; sourceTree = "<group>"; };
+		3A95901D23F6902000659C22 /* SimpleFragment.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SimpleFragment.glsl; sourceTree = "<group>"; };
+		3A95901E23F6902100659C22 /* SimpleVertex.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SimpleVertex.glsl; sourceTree = "<group>"; };
 		3ADE7C8922CF480500B1E932 /* HBNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HBNavigationController.h; sourceTree = "<group>"; };
 		3ADE7C8A22CF480500B1E932 /* HBNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HBNavigationController.m; sourceTree = "<group>"; };
 		3ADE7C8D22CF4BC200B1E932 /* HBRouter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HBRouter.h; sourceTree = "<group>"; };
@@ -156,6 +207,9 @@
 		3A098B7A22C61BE10007F5EB /* HBMVVMProject */ = {
 			isa = PBXGroup;
 			children = (
+				3A8ED7C423D8486E00823321 /* openGL */,
+				3A8ED7B423D82DF400823321 /* money */,
+				3A8ED7B323D82DF400823321 /* more */,
 				3A8A379C22D4AAB600F12124 /* Mine */,
 				3A8A379B22D4AAB100F12124 /* Discovery */,
 				3A8A379A22D4AAA900F12124 /* Display */,
@@ -175,6 +229,7 @@
 				3A8A379E22D4B73300F12124 /* HBConstant.m */,
 				3A8A37B822D4C07100F12124 /* HBBaseViewController.h */,
 				3A8A37B922D4C07100F12124 /* HBBaseViewController.m */,
+				3A764F3C23B618680052B1E9 /* images.xcassets */,
 			);
 			path = HBMVVMProject;
 			sourceTree = "<group>";
@@ -254,6 +309,75 @@
 				3A8A37B622D4BCE000F12124 /* MineModule.m */,
 			);
 			path = Mine;
+			sourceTree = "<group>";
+		};
+		3A8ED7B323D82DF400823321 /* more */ = {
+			isa = PBXGroup;
+			children = (
+				3A8ED7BB23D82E4F00823321 /* MoreModule.h */,
+				3A8ED7BC23D82E4F00823321 /* MoreModule.m */,
+				3A8ED7BE23D82E6700823321 /* MoreViewController.h */,
+				3A8ED7BF23D82E6700823321 /* MoreViewController.m */,
+			);
+			path = more;
+			sourceTree = "<group>";
+		};
+		3A8ED7B423D82DF400823321 /* money */ = {
+			isa = PBXGroup;
+			children = (
+				3A8ED7B923D82E3A00823321 /* MoneyModule.h */,
+				3A8ED7B823D82E3A00823321 /* MoneyModule.m */,
+				3A8ED7C123D82E7600823321 /* MoneyViewController.h */,
+				3A8ED7C223D82E7600823321 /* MoneyViewController.m */,
+			);
+			path = money;
+			sourceTree = "<group>";
+		};
+		3A8ED7C423D8486E00823321 /* openGL */ = {
+			isa = PBXGroup;
+			children = (
+				3A95901D23F6902000659C22 /* SimpleFragment.glsl */,
+				3A95901E23F6902100659C22 /* SimpleVertex.glsl */,
+				3A8ED7DB23D94C9C00823321 /* GLTools */,
+				3A8ED7CB23D943B300823321 /* GLCameraRender */,
+				3A8ED7C523D8488700823321 /* OpenGLModule.h */,
+				3A8ED7C623D8488700823321 /* OpenGLModule.m */,
+				3A8ED7C823D848C300823321 /* OpenGLViewController.h */,
+				3A8ED7C923D848C300823321 /* OpenGLViewController.m */,
+			);
+			path = openGL;
+			sourceTree = "<group>";
+		};
+		3A8ED7CB23D943B300823321 /* GLCameraRender */ = {
+			isa = PBXGroup;
+			children = (
+				3A8ED7D023D943B300823321 /* JDARVRCameraRender.h */,
+				3A8ED7D423D943B300823321 /* JDARVRCameraRender.m */,
+				3A8ED7D323D943B300823321 /* JDARVRGLContext.h */,
+				3A8ED7CD23D943B300823321 /* JDARVRGLContext.m */,
+				3A8ED7CE23D943B300823321 /* JDARVRGLGeometry.h */,
+				3A8ED7D223D943B300823321 /* JDARVRGLGeometry.m */,
+				3A8ED7CF23D943B300823321 /* JDARVRGLObject.h */,
+				3A8ED7D523D943B300823321 /* JDARVRGLObject.m */,
+				3A8ED7D123D943B300823321 /* JDARVRVideoPlane.h */,
+				3A8ED7CC23D943B300823321 /* JDARVRVideoPlane.m */,
+			);
+			path = GLCameraRender;
+			sourceTree = "<group>";
+		};
+		3A8ED7DB23D94C9C00823321 /* GLTools */ = {
+			isa = PBXGroup;
+			children = (
+				3A46208F23FEA32F009A4609 /* HBGLTool.h */,
+				3A46208E23FEA32F009A4609 /* HBGLTool.m */,
+				3A8ED7DC23D94CB700823321 /* HBGLToolContext.h */,
+				3A8ED7DD23D94CB700823321 /* HBGLToolContext.m */,
+				3A46208823FE9C3E009A4609 /* HBGLDrawTools.h */,
+				3A46208923FE9C3E009A4609 /* HBGLDrawTools.m */,
+				3A46208B23FE9C77009A4609 /* HBGLObject.h */,
+				3A46208C23FE9C77009A4609 /* HBGLObject.m */,
+			);
+			path = GLTools;
 			sourceTree = "<group>";
 		};
 		3ADE7C8C22CF4B7500B1E932 /* HBRouter */ = {
@@ -389,8 +513,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				3A098B8822C61BE20007F5EB /* LaunchScreen.storyboard in Resources */,
+				3A764F3D23B618680052B1E9 /* images.xcassets in Resources */,
 				3A098B8522C61BE20007F5EB /* Assets.xcassets in Resources */,
 				3A098B8322C61BE10007F5EB /* Main.storyboard in Resources */,
+				3A95901F23F6902100659C22 /* SimpleFragment.glsl in Resources */,
+				3A95902023F6902100659C22 /* SimpleVertex.glsl in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -442,22 +569,37 @@
 			files = (
 				3A8A379822D4A4A000F12124 /* HBNavModule.m in Sources */,
 				3A8A37B422D4BCD400F12124 /* DiscoveryModule.m in Sources */,
+				3A8ED7DA23D943B300823321 /* JDARVRGLObject.m in Sources */,
+				3A8ED7BA23D82E3A00823321 /* MoneyModule.m in Sources */,
+				3A46208D23FE9C77009A4609 /* HBGLObject.m in Sources */,
+				3A8ED7D623D943B300823321 /* JDARVRVideoPlane.m in Sources */,
 				3A8A37AB22D4B7DD00F12124 /* MineViewController.m in Sources */,
+				3A8ED7C723D8488700823321 /* OpenGLModule.m in Sources */,
+				3A46209023FEA32F009A4609 /* HBGLTool.m in Sources */,
 				3ADE7C8B22CF480500B1E932 /* HBNavigationController.m in Sources */,
 				3A8A37B722D4BCE000F12124 /* MineModule.m in Sources */,
 				3A098BB022CB5EAA0007F5EB /* HBTabBarViewController.m in Sources */,
 				3A8A379F22D4B73300F12124 /* HBConstant.m in Sources */,
 				3A098B8022C61BE10007F5EB /* ViewController.m in Sources */,
+				3A8ED7C023D82E6700823321 /* MoreViewController.m in Sources */,
 				3A8A37B122D4BCC500F12124 /* DisplayModule.m in Sources */,
+				3A8ED7D823D943B300823321 /* JDARVRGLGeometry.m in Sources */,
+				3A8ED7BD23D82E4F00823321 /* MoreModule.m in Sources */,
+				3A8ED7C323D82E7600823321 /* MoneyViewController.m in Sources */,
+				3A8ED7DE23D94CB700823321 /* HBGLToolContext.m in Sources */,
 				3A8A378F22D350A400F12124 /* HBRouterUtils.m in Sources */,
 				3A8A37A222D4B7B300F12124 /* HomeViewController.m in Sources */,
 				3A8A37A522D4B7C200F12124 /* DisplayViewController.m in Sources */,
 				3A098B8B22C61BE20007F5EB /* main.m in Sources */,
 				3A8A37A822D4B7D100F12124 /* DiscoveryViewController.m in Sources */,
+				3A46208A23FE9C3E009A4609 /* HBGLDrawTools.m in Sources */,
 				3ADE7C8F22CF4BC200B1E932 /* HBRouter.m in Sources */,
 				3A8A37AE22D4BCB500F12124 /* HomeModule.m in Sources */,
 				3A8A37BA22D4C07100F12124 /* HBBaseViewController.m in Sources */,
+				3A8ED7CA23D848C300823321 /* OpenGLViewController.m in Sources */,
+				3A8ED7D723D943B300823321 /* JDARVRGLContext.m in Sources */,
 				3A098B7D22C61BE10007F5EB /* AppDelegate.m in Sources */,
+				3A8ED7D923D943B300823321 /* JDARVRCameraRender.m in Sources */,
 				3A8A379222D4813300F12124 /* HBTabBarModule.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
