@@ -13,7 +13,12 @@
 @end
 
 @implementation HBBaseViewController
-
++(void)load {
+    NSLog(@"HBBaseViewController--------------->load");
+}
++(void)initialize {
+    NSLog(@"HBBaseViewController--------------->initialize");
+}
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.

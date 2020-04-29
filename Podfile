@@ -23,4 +23,5 @@ pod 'YYDispatchQueuePool'
 pod 'YYAsyncLayer'
 pod 'YYCategories'
 #pod 'AsyncDisplayKit'
+pod 'OpenCV'
 end
