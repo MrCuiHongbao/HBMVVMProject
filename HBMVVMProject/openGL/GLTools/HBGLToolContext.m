@@ -23,6 +23,7 @@
     return self;
 }
 - (void)active {
+    NSLog(@"self.program------------>%d",self.program);
     glUseProgram(self.program);
 }
 - (void)drawTriangles:(GLfloat *)triangleData vertexCount:(GLint)vertexCount {
@@ -32,7 +33,7 @@
 - (void)bindAttribs:(GLfloat *)triangleData {
     
     glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 0, triangleData);
-    GLuint positionAttribLocation = glGetAttribLocation(self.program, "vPosition");
+    GLuint positionAttribLocation = glGetAttribLocation(self.program, "aPos");
     glEnableVertexAttribArray(positionAttribLocation);
     
     // 为shader中的position和color赋值
@@ -43,12 +44,15 @@
     // normalized: 暂时用不上
     // stride: 每一个点包含几个byte，本例中就是6个GLfloat，x,y,z,r,g,b
     // ptr: 数据开始的指针，位置就是从头开始，颜色则跳过3个GLFloat的大小
-    glVertexAttribPointer(positionAttribLocation, 3, GL_FLOAT, GL_FALSE, 8 * sizeof(GLfloat), (char *)triangleData);
+    //    glVertexAttribPointer(positionAttribLocation, 3, GL_FLOAT, GL_FALSE, 8 * sizeof(GLfloat), (void *)triangleData);
+    glVertexAttribPointer(positionAttribLocation, 3, GL_FLOAT, GL_FALSE, 8 * sizeof(GLfloat), (void *)0);
 }
 bool create_Program(const char *vertexShader, const char *fragmentShader, GLuint *pProgram)  {
     GLuint program, vertShader, fragShader;
     program = glCreateProgram();
-    
+//    if (program == 0) {
+//         return false;
+//     }
     const GLchar *vssource = (GLchar *)vertexShader;
     const GLchar *fssource = (GLchar *)fragmentShader;
     if (!compile_Shader(&vertShader, GL_VERTEX_SHADER, vssource)) {
@@ -105,7 +109,15 @@ bool compile_Shader(GLuint *shader, GLenum type, const GLchar *source) {
     glCompileShader(*shader);
     GLint logLength;
     glGetShaderiv(*shader, GL_INFO_LOG_LENGTH, &logLength);
-    
+    #if DEBUG
+        if (logLength > 0) {
+            GLchar *log = (GLchar *)malloc(logLength);
+            glGetShaderInfoLog(*shader, logLength, &logLength, log);
+            printf("Shader compile log:\n%s", log);
+            printf("Shader: \n %s\n", source);
+            free(log);
+        }
+    #endif
     glGetShaderiv(*shader, GL_COMPILE_STATUS, &status);
     if (status ==0) {
         glDeleteShader(*shader);

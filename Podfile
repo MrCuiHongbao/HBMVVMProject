@@ -1,5 +1,4 @@
 platform :ios, '8.0'
-
 target 'HBMVVMProject' do
 # pod 'SDWebImage', '~> 3.8.0'
  #pod 'SDWebImage-Category', '~> 1.4'
@@ -24,4 +23,10 @@ pod 'YYAsyncLayer'
 pod 'YYCategories'
 #pod 'AsyncDisplayKit'
 pod 'OpenCV'
+pod 'RealReachability'
+target 'HBMVVMProjectTests' do
+end
+target 'HBMVVMProjectUITests' do
+end
+
 end

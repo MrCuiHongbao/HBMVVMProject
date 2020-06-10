@@ -1,8 +1,8 @@
 //
-//  HBGLTool.h
+//  HBDisplayModel.h
 //  HBMVVMProject
 //
-//  Created by hongbao.cui on 2020/2/20.
+//  Created by hongbao.cui on 2020/5/14.
 //  Copyright © 2020 hongbao.cui. All rights reserved.
 //
 
@@ -10,10 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface HBGLTool : NSObject
-
-- (void)setup ;
-- (void)draw;
+@interface HBDisplayModel : NSObject
 
 @end
 

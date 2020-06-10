@@ -19,7 +19,6 @@
 //     NSString *vertexShaderPath = [moduleBundle pathForResource:@"TDP_vertex.glsl"
 //                                                         ofType:nil];
 //     NSString *fragmentShaderPath = [moduleBundle pathForResource:@"TDP_frag_video.glsl" ofType:nil];
-    
     NSString *vertexShaderPath = [[NSBundle mainBundle] pathForResource:@"SimpleVertex" ofType:@"glsl"];
     NSString *fragmentShaderPath =[[NSBundle mainBundle] pathForResource:@"SimpleFragment" ofType:@"glsl"];
      self.toolsContext = [HBGLToolContext contextWithVertexShaderPath:vertexShaderPath fragmentShaderPath:fragmentShaderPath];
@@ -29,4 +28,10 @@
 - (void)draw {
     [_drawTools draw:self.toolsContext];
 }
+//- (void)GLToolsCheckGLError:(const char *msg) {
+//    GLenum err = glGetError();
+//    if (err != GL_NO_ERROR) {
+//        NSLog(@"GLToolsCheckGLError:%d",err);
+//    }
+//}
 @end

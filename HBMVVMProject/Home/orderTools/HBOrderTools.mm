@@ -70,6 +70,29 @@ TreeNode *buildBinaryTreeProcess(int inorder[],int inorderlength,int postorder[]
     NSLog(@"二叉树前序遍历结果为：%@",array);
     return array;
 }
+ int *preSort(TreeNode *node) {
+    if(node == NULL) {
+        return NULL;
+    }
+    stack<TreeNode *> s;
+    s.push(node);
+    int *a = new int(9);
+     int index=0;
+    while(!s.empty()) {
+       TreeNode *treeNode =  s.top();
+       s.pop();
+       a[index] = treeNode->data;
+        index++;
+    if(treeNode->rightChild){
+        s.push(treeNode->rightChild);
+    }
+    if(treeNode->leftChild) {
+        s.push(treeNode->leftChild);
+    }
+    }
+    return a;
+}
+
 /*
     * 二叉树的中序遍历
     * */
@@ -93,6 +116,26 @@ TreeNode *buildBinaryTreeProcess(int inorder[],int inorderlength,int postorder[]
     NSLog(@"二叉树中序遍历结果为：%@",array);
     return array;
 }
+int *inOrder(TreeNode *root){
+    if(root == NULL) {
+        return NULL;
+    }
+    stack<TreeNode *>s;
+    TreeNode *currentNode = root;
+    int *a = new int(9);
+    int i=0;
+    while(!s.empty()||currentNode!=NULL) {
+            while(currentNode){
+                s.push(currentNode);
+                currentNode = currentNode->leftChild;
+            }
+        TreeNode *popNode = s.top();
+        s.pop();
+        a[i++] = popNode->data;
+       currentNode = popNode->rightChild;
+    }
+    return a;
+}
  /*
      * 二叉树的后续遍历
      * */
@@ -107,6 +150,34 @@ TreeNode *buildBinaryTreeProcess(int inorder[],int inorderlength,int postorder[]
     [array addObject:@(root->data)];
     NSLog(@"二叉树后序遍历结果为：%@",array);
     return array;
+}
+int *postOrder(TreeNode *root){
+    if(root == NULL) {
+        return NULL;
+    }
+    stack<TreeNode *>s;
+    TreeNode *currentNode;//当前结点
+    TreeNode *preNode = NULL;//前一次访问的结点
+    s.push(root);
+    int *a = new int(9);
+    int i=0;
+    while(!s.empty()) {
+        currentNode = s.top();
+    if((currentNode->leftChild==NULL&&currentNode->rightChild==NULL)||(preNode!=NULL&&(preNode==currentNode->leftChild||preNode==currentNode->rightChild)))
+        {
+                a[i++] = currentNode->data;//如果当前结点没有孩子结点或者孩子节点都已被访问过
+                s.pop();
+                preNode=currentNode;
+        } else {
+            if(currentNode->rightChild!=NULL)
+                s.push(currentNode->rightChild);
+            if(currentNode->leftChild!=NULL)
+                s.push(currentNode->leftChild);
+        }
+
+    }
+    
+    return a;
 }
 /*
     * 二叉树的层次遍历算法设计levelOrder
@@ -143,15 +214,19 @@ LinkTreeNode *createLinkTree(int b[],int length) {
         node  = (LinkTreeNode *)malloc(sizeof(LinkTreeNode));
     }
     LinkTreeNode *currentNode = node;
-    for (int i=0; i<length-1; i++) {
+    for (int i=0; i<=length-1; i++) {
         printf("createLinkTree array:%d\n",b[i]);
         if (currentNode) {
             currentNode->data = b[i];
             currentNode->index = i;
-            LinkTreeNode *next = (LinkTreeNode *)malloc(sizeof(LinkTreeNode));
-            currentNode->nextNode = next;
+            if (i == length-1) {
+                currentNode->nextNode = NULL;
+            } else {
+                LinkTreeNode *next = (LinkTreeNode *)malloc(sizeof(LinkTreeNode));
+                currentNode->nextNode = next;
+                currentNode = currentNode->nextNode;
+            }
         }
-        currentNode = currentNode->nextNode;
     }
 //    LinkTreeNode *indexNode = node;
 //    LinkTreeNode *indexNode1 = node;
@@ -182,6 +257,23 @@ LinkTreeNode *deleteNote(LinkTreeNode *treeNode,int num) {
     }
     return treeNode;
 }
+//链表倒叙
+LinkTreeNode *reverLinkTreeNode(LinkTreeNode *node) {
+    if (node == NULL) {
+        return NULL;
+    }
+    LinkTreeNode *newLinkTree = NULL;
+    LinkTreeNode *p = node;
+    LinkTreeNode *tempLinkTree = NULL;
+    while (p!=NULL) {
+        tempLinkTree = p->nextNode;
+        p->nextNode = newLinkTree;
+        newLinkTree = p;
+        p = tempLinkTree;
+    }
+    return newLinkTree;
+}
+
 //LinkTreeNode *insertNode(LinkTreeNode *treeNode,int num) {
 //    LinkTreeNode *p1 = treeNode;
 //    
@@ -324,5 +416,115 @@ std::string convertString(std::string s,int numsRow) {
         ret  += row;
     }
     return ret;
+}
+
+int valueIndex(unordered_map<int, char> aMap,char c) {
+        //通过value找 key
+        for(unordered_map<int,char>::iterator it = aMap.begin();it!=aMap.end();it++)
+        {
+            if(it->second == c) {
+                return  it->first;
+            }
+        }
+        return -1;
+}
+//int lengthOfLongestSubstring(string s) {
+//   unordered_map<int, char> aMap;
+//   int index(0);
+//   int start(0);
+//   int end(0);
+//   int result(0);
+//    int max_result(0);//abcabcbb
+//    for(char c:s){
+//        int aInd =  valueIndex(aMap,c);
+//        if(aInd == -1) {
+//            aMap[index] = c;
+//            end++;
+//            result = end-start;
+//        } else {
+//            start = aInd+1;
+//
+//            result = end-start;
+//        }
+//        max_result = max(max_result, result);
+//        index++;
+//    }
+//    return max_result;
+//}
+int lengthOfLongestSubstring(string s) {
+   unordered_map<int, int> aMap;
+   int index(0);
+   int start(0);
+   int end(0);
+   int result(0);
+    int max_result(0);//abcabcbb
+    for(char c:s){
+        if (aMap.find(c)!=aMap.end()) {
+            aMap.erase(aMap.find(c));
+            start = aMap[c];
+            aMap[c] = index;
+            result = end-start;
+        } else {
+            aMap[c] = index;
+            end++;
+            result = end-start;
+        }
+        max_result = max(max_result,result);
+        index++;
+    }
+    return max_result;
+}
+vector<int> twoSum(vector<int>& nums, int target) {
+    unordered_map <int,int>map;
+    for(int i=0;i< nums.size();i++) {
+        if(map.find(target-nums[i])!=map.end()) {
+            return {map[target-nums[i]],i};
+        }
+        else{
+            map[nums[i]] = i;
+        }
+    }
+    return {};
+}
+//char *start = (char *)malloc(sizeof(char));
+//memcpy(start, ccc, strlen(ccc));
+void revertString(char *ccc) {
+    char *start = ccc;
+    char *end = ccc+strlen(ccc)-1;
+    while (start<end) {
+        char temp = *start;
+        *(start++) = *end;
+        *(end--) = temp;
+    }
+}
+void buildMaxHeap(int a[],int length) {
+    for(int i =length/2-1;i>0;i--) {
+        heapify(a,i,length-1);
+    }
+    for (int i=length-1; i>0; i--) {
+        swap(&a[0], &a[i]);
+        heapify(a, 0, i-1);
+    }
+}
+void heapify(int a[],int start, int end) {
+    int dad = start;
+    int son = 2*dad+1;
+    while (son<=end) {
+        if (son + 1 <= end&&a[son] >= a[son+1]) {
+            son++;
+        }
+        if (a[dad] < a[son]) {
+            return;
+        } else {
+            swap(&a[dad],&a[son]);
+          dad = son;
+          son = dad * 2 + 1;
+        }
+    }
+}
+void swap(int *a, int *b) {
+    int temp = *a;
+    *a = *b;
+    *b = temp;
 }
 @end

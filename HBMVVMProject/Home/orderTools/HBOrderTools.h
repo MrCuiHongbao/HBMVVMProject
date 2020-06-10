@@ -37,18 +37,19 @@ TreeNode *buildTree(int inorder[], int alength,int postorder[],int blength);
     * 二叉树的前序遍历
     * */
 - (NSMutableArray *)preOrder:(TreeNode *)root;
-
+int *preSort(TreeNode *node);
 
 /*
     * 二叉树的中序遍历
     * */
 - (NSMutableArray *)inOrder:(TreeNode *)root;
-
+int *inOrder(TreeNode *root);
  /*
      * 二叉树的后续遍历
      * */
 
 - (NSMutableArray *)postOrder:(TreeNode *)root;
+int *postOrder(TreeNode *root);
 
 /*
     * 二叉树的层次遍历算法设计levelOrder
@@ -75,6 +76,10 @@ bool hasCycle(LinkTreeNode *node);
 
 //找到环入口的节点
 LinkTreeNode *cycleEnterPlace(LinkTreeNode *node);
+
+
+//链表倒叙
+LinkTreeNode *reverLinkTreeNode(LinkTreeNode *node);
 
 #pragma mark-- 求数组里连续子数组的最大的和
 #pragma mark-
@@ -110,9 +115,19 @@ void quickSort(int a[10],int length,int left,int right);
 std::string convertString(std::string s,int numsRow);
 
 
+//无重复子串最大长度
+int lengthOfLongestSubstring(std::string s);
 
+//两数相加
+std::vector<int> twoSum(std::vector<int>& nums, int target);
 
+//字符串翻转
 
+void revertString(char *ccc);
+
+//最大堆
+
+void buildMaxHeap(int a[],int n);
 @end
 
 //NS_ASSUME_NONNULL_END

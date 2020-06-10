@@ -1,8 +1,8 @@
 //
-//  HBGLTool.h
+//  HBDrawTriangle.h
 //  HBMVVMProject
 //
-//  Created by hongbao.cui on 2020/2/20.
+//  Created by hongbao.cui on 2020/6/5.
 //  Copyright © 2020 hongbao.cui. All rights reserved.
 //
 
@@ -10,11 +10,8 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface HBGLTool : NSObject
-
-- (void)setup ;
+@interface HBDrawTriangle : NSObject
 - (void)draw;
-
 @end
 
 NS_ASSUME_NONNULL_END

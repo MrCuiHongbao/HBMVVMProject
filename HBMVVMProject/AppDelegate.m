@@ -31,6 +31,7 @@
     [nav.navigationBar setHidden:YES];
     self.window.rootViewController = nav;
     [self.window makeKeyAndVisible];
+    
     return YES;
 }
 - (NSDictionary *)str:(NSString *)routerString{

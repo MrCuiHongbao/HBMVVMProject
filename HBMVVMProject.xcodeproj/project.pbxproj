@@ -57,12 +57,71 @@
 		3A95902023F6902100659C22 /* SimpleVertex.glsl in Resources */ = {isa = PBXBuildFile; fileRef = 3A95901E23F6902100659C22 /* SimpleVertex.glsl */; };
 		3AAF315F2412865D001AF56F /* HBOrderTools.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3AAF315E2412865C001AF56F /* HBOrderTools.mm */; };
 		3AAF31622412AD67001AF56F /* HBStackForImplement.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AAF31612412AD67001AF56F /* HBStackForImplement.m */; };
+		3ABFE2F1246D4CF400B013A6 /* HBDisplayModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ABFE2F0246D4CF400B013A6 /* HBDisplayModel.m */; };
+		3ABFE2F4246D4D6500B013A6 /* HBDisplayViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ABFE2F3246D4D6500B013A6 /* HBDisplayViewModel.m */; };
+		3AD5C1412463B80600F3B29C /* HBNavModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A8A379722D4A49F00F12124 /* HBNavModule.m */; };
+		3AD5C1422463B80600F3B29C /* DiscoveryModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A8A37B322D4BCD400F12124 /* DiscoveryModule.m */; };
+		3AD5C1432463B80600F3B29C /* BeatyViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3ADC09D024407DFB0018D39E /* BeatyViewController.mm */; };
+		3AD5C1442463B80600F3B29C /* HBStackForImplement.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AAF31612412AD67001AF56F /* HBStackForImplement.m */; };
+		3AD5C1452463B80600F3B29C /* JDARVRGLObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A8ED7D523D943B300823321 /* JDARVRGLObject.m */; };
+		3AD5C1462463B80600F3B29C /* MoneyModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A8ED7B823D82E3A00823321 /* MoneyModule.m */; };
+		3AD5C1472463B80600F3B29C /* HBGLObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A46208C23FE9C77009A4609 /* HBGLObject.m */; };
+		3AD5C1482463B80600F3B29C /* JDARVRVideoPlane.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A8ED7CC23D943B300823321 /* JDARVRVideoPlane.m */; };
+		3AD5C1492463B80600F3B29C /* MineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A8A37AA22D4B7DD00F12124 /* MineViewController.m */; };
+		3AD5C14A2463B80600F3B29C /* OpenGLModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A8ED7C623D8488700823321 /* OpenGLModule.m */; };
+		3AD5C14B2463B80600F3B29C /* HBGLTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A46208E23FEA32F009A4609 /* HBGLTool.m */; };
+		3AD5C14C2463B80600F3B29C /* HBNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ADE7C8A22CF480500B1E932 /* HBNavigationController.m */; };
+		3AD5C14D2463B80600F3B29C /* MineModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A8A37B622D4BCE000F12124 /* MineModule.m */; };
+		3AD5C14E2463B80600F3B29C /* HBNSLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A5FC700244DB137004AE2A6 /* HBNSLog.m */; };
+		3AD5C14F2463B80600F3B29C /* HBTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A098BAF22CB5EAA0007F5EB /* HBTabBarViewController.m */; };
+		3AD5C1502463B80600F3B29C /* HBConstant.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A8A379E22D4B73300F12124 /* HBConstant.m */; };
+		3AD5C1512463B80600F3B29C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A098B7F22C61BE10007F5EB /* ViewController.m */; };
+		3AD5C1522463B80600F3B29C /* MoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A8ED7BF23D82E6700823321 /* MoreViewController.m */; };
+		3AD5C1532463B80600F3B29C /* DisplayModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A8A37B022D4BCC500F12124 /* DisplayModule.m */; };
+		3AD5C1542463B80600F3B29C /* JDARVRGLGeometry.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A8ED7D223D943B300823321 /* JDARVRGLGeometry.m */; };
+		3AD5C1552463B80600F3B29C /* MoreModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A8ED7BC23D82E4F00823321 /* MoreModule.m */; };
+		3AD5C1562463B80600F3B29C /* MoneyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A8ED7C223D82E7600823321 /* MoneyViewController.m */; };
+		3AD5C1572463B80600F3B29C /* HBBlockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ADC09CA243ED4770018D39E /* HBBlockViewController.m */; };
+		3AD5C1582463B80600F3B29C /* HBGLToolContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A8ED7DD23D94CB700823321 /* HBGLToolContext.m */; };
+		3AD5C1592463B80600F3B29C /* HBRouterUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A8A378E22D350A400F12124 /* HBRouterUtils.m */; };
+		3AD5C15A2463B80600F3B29C /* HomeViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3A8A37A122D4B7B300F12124 /* HomeViewController.mm */; };
+		3AD5C15B2463B80600F3B29C /* DisplayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A8A37A422D4B7C200F12124 /* DisplayViewController.m */; };
+		3AD5C15C2463B80600F3B29C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A098B8A22C61BE20007F5EB /* main.m */; };
+		3AD5C15D2463B80600F3B29C /* DiscoveryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A8A37A722D4B7D100F12124 /* DiscoveryViewController.m */; };
+		3AD5C15E2463B80600F3B29C /* HBGLDrawTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A46208923FE9C3E009A4609 /* HBGLDrawTools.m */; };
+		3AD5C15F2463B80600F3B29C /* HBRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ADE7C8E22CF4BC200B1E932 /* HBRouter.m */; };
+		3AD5C1602463B80600F3B29C /* HomeModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A8A37AD22D4BCB500F12124 /* HomeModule.m */; };
+		3AD5C1612463B80600F3B29C /* HBBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A8A37B922D4C07100F12124 /* HBBaseViewController.m */; };
+		3AD5C1622463B80600F3B29C /* HBOrderTools.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3AAF315E2412865C001AF56F /* HBOrderTools.mm */; };
+		3AD5C1632463B80600F3B29C /* OpenGLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A8ED7C923D848C300823321 /* OpenGLViewController.m */; };
+		3AD5C1642463B80600F3B29C /* JDARVRGLContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A8ED7CD23D943B300823321 /* JDARVRGLContext.m */; };
+		3AD5C1652463B80600F3B29C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A098B7C22C61BE10007F5EB /* AppDelegate.m */; };
+		3AD5C1662463B80600F3B29C /* HBSFViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A06D3222455158E0066132A /* HBSFViewController.swift */; };
+		3AD5C1672463B80600F3B29C /* JDARVRCameraRender.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A8ED7D423D943B300823321 /* JDARVRCameraRender.m */; };
+		3AD5C1682463B80600F3B29C /* HBTabBarModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A8A379122D4813300F12124 /* HBTabBarModule.m */; };
+		3AD5C16A2463B80600F3B29C /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A5DCB9A2440C22200890C82 /* WebKit.framework */; };
+		3AD5C16D2463B80600F3B29C /* smile.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 3A27E5CA243B728800EB4C85 /* smile.jpeg */; };
+		3AD5C16E2463B80600F3B29C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A098B8622C61BE20007F5EB /* LaunchScreen.storyboard */; };
+		3AD5C16F2463B80600F3B29C /* smile.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A27E5D2243C851900EB4C85 /* smile.png */; };
+		3AD5C1702463B80600F3B29C /* images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A764F3C23B618680052B1E9 /* images.xcassets */; };
+		3AD5C1712463B80600F3B29C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A098B8422C61BE20007F5EB /* Assets.xcassets */; };
+		3AD5C1722463B80600F3B29C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A098B8122C61BE10007F5EB /* Main.storyboard */; };
+		3AD5C1732463B80600F3B29C /* bikini.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 3A27E5CE243C7F3000EB4C85 /* bikini.jpeg */; };
+		3AD5C1742463B80600F3B29C /* tangyan2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3A5DCB9C2440C7AB00890C82 /* tangyan2.jpg */; };
+		3AD5C1752463B80600F3B29C /* SimpleFragment.glsl in Resources */ = {isa = PBXBuildFile; fileRef = 3A95901D23F6902000659C22 /* SimpleFragment.glsl */; };
+		3AD5C1762463B80600F3B29C /* SimpleVertex.glsl in Resources */ = {isa = PBXBuildFile; fileRef = 3A95901E23F6902100659C22 /* SimpleVertex.glsl */; };
+		3AD5C1772463B80600F3B29C /* timg.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 3A27E5CF243C7F3000EB4C85 /* timg.jpeg */; };
+		3AD5C1782463B80600F3B29C /* tangyan.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3ADC09D32440BF470018D39E /* tangyan.jpg */; };
 		3ADC09CB243ED4770018D39E /* HBBlockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ADC09CA243ED4770018D39E /* HBBlockViewController.m */; };
 		3ADC09D224407DFB0018D39E /* BeatyViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3ADC09D024407DFB0018D39E /* BeatyViewController.mm */; };
 		3ADC09D42440BF470018D39E /* tangyan.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3ADC09D32440BF470018D39E /* tangyan.jpg */; };
 		3ADE7C8B22CF480500B1E932 /* HBNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ADE7C8A22CF480500B1E932 /* HBNavigationController.m */; };
 		3ADE7C8F22CF4BC200B1E932 /* HBRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ADE7C8E22CF4BC200B1E932 /* HBRouter.m */; };
+		3AE93D80248E307100CAA7ED /* HBDrawTriangle.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AE93D7F248E307100CAA7ED /* HBDrawTriangle.m */; };
+		661F5322A2DAC1BCA645F9BE /* libPods-HBMVVMProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E03B9A647A087C9DF24C4BFB /* libPods-HBMVVMProject.a */; };
 		B447ACDD7F67F8288060148D /* libPods-HBMVVMProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E03B9A647A087C9DF24C4BFB /* libPods-HBMVVMProject.a */; };
+		EC91CC636D95D75583AF8DD2 /* libPods-HBMVVMProject-HBMVVMProjectTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B45942D82D73B301B4F3299 /* libPods-HBMVVMProject-HBMVVMProjectTests.a */; };
+		FB758E4FC52D983D0E0146CB /* libPods-HBMVVMProject-HBMVVMProjectUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 96DCF1DE5EEF1A16678CA899 /* libPods-HBMVVMProject-HBMVVMProjectUITests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -85,6 +144,9 @@
 /* Begin PBXFileReference section */
 		05A7EDD19B6B837B1F5E3009 /* Pods-HBMVVMProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HBMVVMProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-HBMVVMProject/Pods-HBMVVMProject.release.xcconfig"; sourceTree = "<group>"; };
 		06F2D12133CD62E878CC69C3 /* Pods-HBMVVMProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HBMVVMProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HBMVVMProject/Pods-HBMVVMProject.debug.xcconfig"; sourceTree = "<group>"; };
+		0901C78666190D643DA7A5C1 /* Pods-HBMVVMProject-HBMVVMProjectUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HBMVVMProject-HBMVVMProjectUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HBMVVMProject-HBMVVMProjectUITests/Pods-HBMVVMProject-HBMVVMProjectUITests.release.xcconfig"; sourceTree = "<group>"; };
+		21667C41AA03E778BB62F15C /* Pods-HBMVVMProject-HBMVVMProjectUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HBMVVMProject-HBMVVMProjectUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HBMVVMProject-HBMVVMProjectUITests/Pods-HBMVVMProject-HBMVVMProjectUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		2B45942D82D73B301B4F3299 /* libPods-HBMVVMProject-HBMVVMProjectTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HBMVVMProject-HBMVVMProjectTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A06D31B245514C20066132A /* HBMVVMProject-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HBMVVMProject-Bridging-Header.h"; sourceTree = "<group>"; };
 		3A06D3222455158E0066132A /* HBSFViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HBSFViewController.swift; sourceTree = "<group>"; };
 		3A098B7822C61BE10007F5EB /* HBMVVMProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HBMVVMProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -115,6 +177,7 @@
 		3A46208C23FE9C77009A4609 /* HBGLObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HBGLObject.m; sourceTree = "<group>"; };
 		3A46208E23FEA32F009A4609 /* HBGLTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBGLTool.m; sourceTree = "<group>"; };
 		3A46208F23FEA32F009A4609 /* HBGLTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBGLTool.h; sourceTree = "<group>"; };
+		3A480819248A616700B9DF6E /* HBDrawTriangle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HBDrawTriangle.h; sourceTree = "<group>"; };
 		3A5DCB9A2440C22200890C82 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		3A5DCB9C2440C7AB00890C82 /* tangyan2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tangyan2.jpg; sourceTree = "<group>"; };
 		3A5FC6FF244DB137004AE2A6 /* HBNSLog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HBNSLog.h; sourceTree = "<group>"; };
@@ -176,6 +239,12 @@
 		3AAF315E2412865C001AF56F /* HBOrderTools.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = HBOrderTools.mm; sourceTree = "<group>"; };
 		3AAF31602412AD67001AF56F /* HBStackForImplement.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HBStackForImplement.h; sourceTree = "<group>"; };
 		3AAF31612412AD67001AF56F /* HBStackForImplement.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HBStackForImplement.m; sourceTree = "<group>"; };
+		3ABFE2EF246D4CF400B013A6 /* HBDisplayModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HBDisplayModel.h; sourceTree = "<group>"; };
+		3ABFE2F0246D4CF400B013A6 /* HBDisplayModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HBDisplayModel.m; sourceTree = "<group>"; };
+		3ABFE2F2246D4D6500B013A6 /* HBDisplayViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HBDisplayViewModel.h; sourceTree = "<group>"; };
+		3ABFE2F3246D4D6500B013A6 /* HBDisplayViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HBDisplayViewModel.m; sourceTree = "<group>"; };
+		3AD5C17C2463B80700F3B29C /* HBMVVMProject1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HBMVVMProject1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AD5C17D2463B80700F3B29C /* HBMVVMProject copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "HBMVVMProject copy-Info.plist"; path = "/Users/hongbao.cui/Desktop/work/Myworkspace/HBMVVMProject/HBMVVMProject copy-Info.plist"; sourceTree = "<absolute>"; };
 		3ADC09C9243ED4770018D39E /* HBBlockViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HBBlockViewController.h; sourceTree = "<group>"; };
 		3ADC09CA243ED4770018D39E /* HBBlockViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HBBlockViewController.m; sourceTree = "<group>"; };
 		3ADC09D024407DFB0018D39E /* BeatyViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = BeatyViewController.mm; sourceTree = "<group>"; };
@@ -185,7 +254,11 @@
 		3ADE7C8A22CF480500B1E932 /* HBNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HBNavigationController.m; sourceTree = "<group>"; };
 		3ADE7C8D22CF4BC200B1E932 /* HBRouter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HBRouter.h; sourceTree = "<group>"; };
 		3ADE7C8E22CF4BC200B1E932 /* HBRouter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HBRouter.m; sourceTree = "<group>"; };
+		3AE93D7F248E307100CAA7ED /* HBDrawTriangle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBDrawTriangle.m; sourceTree = "<group>"; };
+		96DCF1DE5EEF1A16678CA899 /* libPods-HBMVVMProject-HBMVVMProjectUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HBMVVMProject-HBMVVMProjectUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0C7D3B9BED7EF1F9817AE8D /* Pods-HBMVVMProject-HBMVVMProjectTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HBMVVMProject-HBMVVMProjectTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HBMVVMProject-HBMVVMProjectTests/Pods-HBMVVMProject-HBMVVMProjectTests.release.xcconfig"; sourceTree = "<group>"; };
 		E03B9A647A087C9DF24C4BFB /* libPods-HBMVVMProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HBMVVMProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA14CB389AB4652B37FA22B8 /* Pods-HBMVVMProject-HBMVVMProjectTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HBMVVMProject-HBMVVMProjectTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HBMVVMProject-HBMVVMProjectTests/Pods-HBMVVMProject-HBMVVMProjectTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -195,6 +268,7 @@
 			files = (
 				3A5DCB9B2440C22200890C82 /* WebKit.framework in Frameworks */,
 				B447ACDD7F67F8288060148D /* libPods-HBMVVMProject.a in Frameworks */,
+				661F5322A2DAC1BCA645F9BE /* libPods-HBMVVMProject.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -202,6 +276,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC91CC636D95D75583AF8DD2 /* libPods-HBMVVMProject-HBMVVMProjectTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -209,6 +284,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB758E4FC52D983D0E0146CB /* libPods-HBMVVMProject-HBMVVMProjectUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AD5C1692463B80600F3B29C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AD5C16A2463B80600F3B29C /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -224,6 +308,7 @@
 				3A098B7922C61BE10007F5EB /* Products */,
 				A009D6B617B3D07B05DA9707 /* Pods */,
 				C5B9D17B32875809BCD56D70 /* Frameworks */,
+				3AD5C17D2463B80700F3B29C /* HBMVVMProject copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -233,6 +318,7 @@
 				3A098B7822C61BE10007F5EB /* HBMVVMProject.app */,
 				3A098B9022C61BE20007F5EB /* HBMVVMProjectTests.xctest */,
 				3A098B9B22C61BE20007F5EB /* HBMVVMProjectUITests.xctest */,
+				3AD5C17C2463B80700F3B29C /* HBMVVMProject1.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -337,10 +423,14 @@
 		3A8A379A22D4AAA900F12124 /* Display */ = {
 			isa = PBXGroup;
 			children = (
-				3A8A37A322D4B7C200F12124 /* DisplayViewController.h */,
-				3A8A37A422D4B7C200F12124 /* DisplayViewController.m */,
 				3A8A37AF22D4BCC500F12124 /* DisplayModule.h */,
 				3A8A37B022D4BCC500F12124 /* DisplayModule.m */,
+				3A8A37A322D4B7C200F12124 /* DisplayViewController.h */,
+				3A8A37A422D4B7C200F12124 /* DisplayViewController.m */,
+				3ABFE2EF246D4CF400B013A6 /* HBDisplayModel.h */,
+				3ABFE2F0246D4CF400B013A6 /* HBDisplayModel.m */,
+				3ABFE2F2246D4D6500B013A6 /* HBDisplayViewModel.h */,
+				3ABFE2F3246D4D6500B013A6 /* HBDisplayViewModel.m */,
 			);
 			path = Display;
 			sourceTree = "<group>";
@@ -400,6 +490,8 @@
 				3A8ED7C623D8488700823321 /* OpenGLModule.m */,
 				3A8ED7C823D848C300823321 /* OpenGLViewController.h */,
 				3A8ED7C923D848C300823321 /* OpenGLViewController.m */,
+				3A480819248A616700B9DF6E /* HBDrawTriangle.h */,
+				3AE93D7F248E307100CAA7ED /* HBDrawTriangle.m */,
 			);
 			path = openGL;
 			sourceTree = "<group>";
@@ -463,6 +555,10 @@
 			children = (
 				06F2D12133CD62E878CC69C3 /* Pods-HBMVVMProject.debug.xcconfig */,
 				05A7EDD19B6B837B1F5E3009 /* Pods-HBMVVMProject.release.xcconfig */,
+				FA14CB389AB4652B37FA22B8 /* Pods-HBMVVMProject-HBMVVMProjectTests.debug.xcconfig */,
+				A0C7D3B9BED7EF1F9817AE8D /* Pods-HBMVVMProject-HBMVVMProjectTests.release.xcconfig */,
+				21667C41AA03E778BB62F15C /* Pods-HBMVVMProject-HBMVVMProjectUITests.debug.xcconfig */,
+				0901C78666190D643DA7A5C1 /* Pods-HBMVVMProject-HBMVVMProjectUITests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -472,6 +568,8 @@
 			children = (
 				3A5DCB9A2440C22200890C82 /* WebKit.framework */,
 				E03B9A647A087C9DF24C4BFB /* libPods-HBMVVMProject.a */,
+				2B45942D82D73B301B4F3299 /* libPods-HBMVVMProject-HBMVVMProjectTests.a */,
+				96DCF1DE5EEF1A16678CA899 /* libPods-HBMVVMProject-HBMVVMProjectUITests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -501,6 +599,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3A098BA722C61BE20007F5EB /* Build configuration list for PBXNativeTarget "HBMVVMProjectTests" */;
 			buildPhases = (
+				781CDE5D598FE912315F1835 /* [CP] Check Pods Manifest.lock */,
 				3A098B8C22C61BE20007F5EB /* Sources */,
 				3A098B8D22C61BE20007F5EB /* Frameworks */,
 				3A098B8E22C61BE20007F5EB /* Resources */,
@@ -519,6 +618,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3A098BAA22C61BE20007F5EB /* Build configuration list for PBXNativeTarget "HBMVVMProjectUITests" */;
 			buildPhases = (
+				748DFD19B3B8C48B60A08FE2 /* [CP] Check Pods Manifest.lock */,
 				3A098B9722C61BE20007F5EB /* Sources */,
 				3A098B9822C61BE20007F5EB /* Frameworks */,
 				3A098B9922C61BE20007F5EB /* Resources */,
@@ -532,6 +632,23 @@
 			productName = HBMVVMProjectUITests;
 			productReference = 3A098B9B22C61BE20007F5EB /* HBMVVMProjectUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		3AD5C13E2463B80600F3B29C /* HBMVVMProject1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3AD5C1792463B80600F3B29C /* Build configuration list for PBXNativeTarget "HBMVVMProject1" */;
+			buildPhases = (
+				3AD5C1402463B80600F3B29C /* Sources */,
+				3AD5C1692463B80600F3B29C /* Frameworks */,
+				3AD5C16C2463B80600F3B29C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HBMVVMProject1;
+			productName = HBMVVMProject;
+			productReference = 3AD5C17C2463B80700F3B29C /* HBMVVMProject1.app */;
+			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
@@ -572,6 +689,7 @@
 				3A098B7722C61BE10007F5EB /* HBMVVMProject */,
 				3A098B8F22C61BE20007F5EB /* HBMVVMProjectTests */,
 				3A098B9A22C61BE20007F5EB /* HBMVVMProjectUITests */,
+				3AD5C13E2463B80600F3B29C /* HBMVVMProject1 */,
 			);
 		};
 /* End PBXProject section */
@@ -610,9 +728,72 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		3AD5C16C2463B80600F3B29C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AD5C16D2463B80600F3B29C /* smile.jpeg in Resources */,
+				3AD5C16E2463B80600F3B29C /* LaunchScreen.storyboard in Resources */,
+				3AD5C16F2463B80600F3B29C /* smile.png in Resources */,
+				3AD5C1702463B80600F3B29C /* images.xcassets in Resources */,
+				3AD5C1712463B80600F3B29C /* Assets.xcassets in Resources */,
+				3AD5C1722463B80600F3B29C /* Main.storyboard in Resources */,
+				3AD5C1732463B80600F3B29C /* bikini.jpeg in Resources */,
+				3AD5C1742463B80600F3B29C /* tangyan2.jpg in Resources */,
+				3AD5C1752463B80600F3B29C /* SimpleFragment.glsl in Resources */,
+				3AD5C1762463B80600F3B29C /* SimpleVertex.glsl in Resources */,
+				3AD5C1772463B80600F3B29C /* timg.jpeg in Resources */,
+				3AD5C1782463B80600F3B29C /* tangyan.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		748DFD19B3B8C48B60A08FE2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HBMVVMProject-HBMVVMProjectUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		781CDE5D598FE912315F1835 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HBMVVMProject-HBMVVMProjectTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 		E13E26E4E357B27D12CD2B22 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -648,6 +829,7 @@
 				3AAF31622412AD67001AF56F /* HBStackForImplement.m in Sources */,
 				3A8ED7DA23D943B300823321 /* JDARVRGLObject.m in Sources */,
 				3A8ED7BA23D82E3A00823321 /* MoneyModule.m in Sources */,
+				3AE93D80248E307100CAA7ED /* HBDrawTriangle.m in Sources */,
 				3A46208D23FE9C77009A4609 /* HBGLObject.m in Sources */,
 				3A8ED7D623D943B300823321 /* JDARVRVideoPlane.m in Sources */,
 				3A8A37AB22D4B7DD00F12124 /* MineViewController.m in Sources */,
@@ -665,6 +847,7 @@
 				3A8ED7BD23D82E4F00823321 /* MoreModule.m in Sources */,
 				3A8ED7C323D82E7600823321 /* MoneyViewController.m in Sources */,
 				3ADC09CB243ED4770018D39E /* HBBlockViewController.m in Sources */,
+				3ABFE2F4246D4D6500B013A6 /* HBDisplayViewModel.m in Sources */,
 				3A8ED7DE23D94CB700823321 /* HBGLToolContext.m in Sources */,
 				3A8A378F22D350A400F12124 /* HBRouterUtils.m in Sources */,
 				3A8A37A222D4B7B300F12124 /* HomeViewController.mm in Sources */,
@@ -677,6 +860,7 @@
 				3A8A37BA22D4C07100F12124 /* HBBaseViewController.m in Sources */,
 				3AAF315F2412865D001AF56F /* HBOrderTools.mm in Sources */,
 				3A8ED7CA23D848C300823321 /* OpenGLViewController.m in Sources */,
+				3ABFE2F1246D4CF400B013A6 /* HBDisplayModel.m in Sources */,
 				3A8ED7D723D943B300823321 /* JDARVRGLContext.m in Sources */,
 				3A098B7D22C61BE10007F5EB /* AppDelegate.m in Sources */,
 				3A06D3232455158E0066132A /* HBSFViewController.swift in Sources */,
@@ -698,6 +882,53 @@
 			buildActionMask = 2147483647;
 			files = (
 				3A098BA022C61BE20007F5EB /* HBMVVMProjectUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AD5C1402463B80600F3B29C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AD5C1412463B80600F3B29C /* HBNavModule.m in Sources */,
+				3AD5C1422463B80600F3B29C /* DiscoveryModule.m in Sources */,
+				3AD5C1432463B80600F3B29C /* BeatyViewController.mm in Sources */,
+				3AD5C1442463B80600F3B29C /* HBStackForImplement.m in Sources */,
+				3AD5C1452463B80600F3B29C /* JDARVRGLObject.m in Sources */,
+				3AD5C1462463B80600F3B29C /* MoneyModule.m in Sources */,
+				3AD5C1472463B80600F3B29C /* HBGLObject.m in Sources */,
+				3AD5C1482463B80600F3B29C /* JDARVRVideoPlane.m in Sources */,
+				3AD5C1492463B80600F3B29C /* MineViewController.m in Sources */,
+				3AD5C14A2463B80600F3B29C /* OpenGLModule.m in Sources */,
+				3AD5C14B2463B80600F3B29C /* HBGLTool.m in Sources */,
+				3AD5C14C2463B80600F3B29C /* HBNavigationController.m in Sources */,
+				3AD5C14D2463B80600F3B29C /* MineModule.m in Sources */,
+				3AD5C14E2463B80600F3B29C /* HBNSLog.m in Sources */,
+				3AD5C14F2463B80600F3B29C /* HBTabBarViewController.m in Sources */,
+				3AD5C1502463B80600F3B29C /* HBConstant.m in Sources */,
+				3AD5C1512463B80600F3B29C /* ViewController.m in Sources */,
+				3AD5C1522463B80600F3B29C /* MoreViewController.m in Sources */,
+				3AD5C1532463B80600F3B29C /* DisplayModule.m in Sources */,
+				3AD5C1542463B80600F3B29C /* JDARVRGLGeometry.m in Sources */,
+				3AD5C1552463B80600F3B29C /* MoreModule.m in Sources */,
+				3AD5C1562463B80600F3B29C /* MoneyViewController.m in Sources */,
+				3AD5C1572463B80600F3B29C /* HBBlockViewController.m in Sources */,
+				3AD5C1582463B80600F3B29C /* HBGLToolContext.m in Sources */,
+				3AD5C1592463B80600F3B29C /* HBRouterUtils.m in Sources */,
+				3AD5C15A2463B80600F3B29C /* HomeViewController.mm in Sources */,
+				3AD5C15B2463B80600F3B29C /* DisplayViewController.m in Sources */,
+				3AD5C15C2463B80600F3B29C /* main.m in Sources */,
+				3AD5C15D2463B80600F3B29C /* DiscoveryViewController.m in Sources */,
+				3AD5C15E2463B80600F3B29C /* HBGLDrawTools.m in Sources */,
+				3AD5C15F2463B80600F3B29C /* HBRouter.m in Sources */,
+				3AD5C1602463B80600F3B29C /* HomeModule.m in Sources */,
+				3AD5C1612463B80600F3B29C /* HBBaseViewController.m in Sources */,
+				3AD5C1622463B80600F3B29C /* HBOrderTools.mm in Sources */,
+				3AD5C1632463B80600F3B29C /* OpenGLViewController.m in Sources */,
+				3AD5C1642463B80600F3B29C /* JDARVRGLContext.m in Sources */,
+				3AD5C1652463B80600F3B29C /* AppDelegate.m in Sources */,
+				3AD5C1662463B80600F3B29C /* HBSFViewController.swift in Sources */,
+				3AD5C1672463B80600F3B29C /* JDARVRCameraRender.m in Sources */,
+				3AD5C1682463B80600F3B29C /* HBTabBarModule.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -949,6 +1180,7 @@
 		};
 		3A098BA822C61BE20007F5EB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA14CB389AB4652B37FA22B8 /* Pods-HBMVVMProject-HBMVVMProjectTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -968,6 +1200,7 @@
 		};
 		3A098BA922C61BE20007F5EB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0C7D3B9BED7EF1F9817AE8D /* Pods-HBMVVMProject-HBMVVMProjectTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -987,6 +1220,7 @@
 		};
 		3A098BAB22C61BE20007F5EB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 21667C41AA03E778BB62F15C /* Pods-HBMVVMProject-HBMVVMProjectUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -1005,6 +1239,7 @@
 		};
 		3A098BAC22C61BE20007F5EB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0901C78666190D643DA7A5C1 /* Pods-HBMVVMProject-HBMVVMProjectUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -1018,6 +1253,103 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = HBMVVMProject;
+			};
+			name = Release;
+		};
+		3AD5C17A2463B80600F3B29C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEFINES_MODULE = NO;
+				DEVELOPMENT_TEAM = MWX7M7ABA2;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/AFNetworking\"",
+					"\"${PODS_ROOT}/Headers/Public/JLRoutes\"",
+					"\"${PODS_ROOT}/Headers/Public/Masonry\"",
+					"\"${PODS_ROOT}/Headers/Public/OpenCV\"/**",
+					"\"${PODS_ROOT}/Headers/Public/ReactiveObjC\"",
+					"\"${PODS_ROOT}/Headers/Public/SDRouter\"",
+					"\"${PODS_ROOT}/Headers/Public/SDWebImage\"",
+					"\"${PODS_ROOT}/Headers/Public/SDWebImageWebPCoder\"",
+					"\"${PODS_ROOT}/Headers/Public/SDWebImageYYPlugin\"",
+					"\"${PODS_ROOT}/Headers/Public/YYAsyncLayer\"",
+					"\"${PODS_ROOT}/Headers/Public/YYCache\"",
+					"\"${PODS_ROOT}/Headers/Public/YYCategories\"",
+					"\"${PODS_ROOT}/Headers/Public/YYDispatchQueuePool\"",
+					"\"${PODS_ROOT}/Headers/Public/YYImage\"",
+					"\"${PODS_ROOT}/Headers/Public/YYKeyboardManager\"",
+					"\"${PODS_ROOT}/Headers/Public/YYModel\"",
+					"\"${PODS_ROOT}/Headers/Public/YYText\"",
+					"\"${PODS_ROOT}/Headers/Public/YYWebImage\"",
+					"\"${PODS_ROOT}/Headers/Public/libwebp\"",
+				);
+				INFOPLIST_FILE = "HBMVVMProject copy-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LLVM_LTO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sunny.karry.HBMVVMProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = ARVR_Dev;
+				SWIFT_OBJC_BRIDGING_HEADER = "HBMVVMProject/Home/HBMVVMProject-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3AD5C17B2463B80600F3B29C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEFINES_MODULE = NO;
+				DEVELOPMENT_TEAM = MWX7M7ABA2;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/AFNetworking\"",
+					"\"${PODS_ROOT}/Headers/Public/JLRoutes\"",
+					"\"${PODS_ROOT}/Headers/Public/Masonry\"",
+					"\"${PODS_ROOT}/Headers/Public/OpenCV\"/**",
+					"\"${PODS_ROOT}/Headers/Public/ReactiveObjC\"",
+					"\"${PODS_ROOT}/Headers/Public/SDRouter\"",
+					"\"${PODS_ROOT}/Headers/Public/SDWebImage\"",
+					"\"${PODS_ROOT}/Headers/Public/SDWebImageWebPCoder\"",
+					"\"${PODS_ROOT}/Headers/Public/SDWebImageYYPlugin\"",
+					"\"${PODS_ROOT}/Headers/Public/YYAsyncLayer\"",
+					"\"${PODS_ROOT}/Headers/Public/YYCache\"",
+					"\"${PODS_ROOT}/Headers/Public/YYCategories\"",
+					"\"${PODS_ROOT}/Headers/Public/YYDispatchQueuePool\"",
+					"\"${PODS_ROOT}/Headers/Public/YYImage\"",
+					"\"${PODS_ROOT}/Headers/Public/YYKeyboardManager\"",
+					"\"${PODS_ROOT}/Headers/Public/YYModel\"",
+					"\"${PODS_ROOT}/Headers/Public/YYText\"",
+					"\"${PODS_ROOT}/Headers/Public/YYWebImage\"",
+					"\"${PODS_ROOT}/Headers/Public/libwebp\"",
+				);
+				INFOPLIST_FILE = "HBMVVMProject copy-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LLVM_LTO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sunny.karry.HBMVVMProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = ARVR_Dev;
+				SWIFT_OBJC_BRIDGING_HEADER = "HBMVVMProject/Home/HBMVVMProject-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -1056,6 +1388,15 @@
 			buildConfigurations = (
 				3A098BAB22C61BE20007F5EB /* Debug */,
 				3A098BAC22C61BE20007F5EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3AD5C1792463B80600F3B29C /* Build configuration list for PBXNativeTarget "HBMVVMProject1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AD5C17A2463B80600F3B29C /* Debug */,
+				3AD5C17B2463B80600F3B29C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -19,28 +19,19 @@
     self = [super initWithGLContext:context];
     if (self) {
 //        self.modelMatrix = GLKMatrix4Identity;
-//        [self genVBO];
-//        [self genVAO];
+        [self genVBO];
+        [self genVAO];
     }
     return self;
 }
-//- (GLfloat *)cubeData {
-//    static GLfloat cubeData[] = {
-//        -0.5,   0.5f,  0.0,   0,  0,  1, 0, 0,
-//        -0.5f,  -0.5f,  0.0,  0,  0,  1, 0, 1,
-//        0.5f,   -0.5f,  0.0,  0,  0,  1, 1, 1,
-//        0.5,    -0.5f, 0.0,   0,  0,  1, 1, 1,
-//        0.5f,  0.5f,  0.0,    0,  0,  1, 1, 0,
-//        -0.5f,   0.5f,  0.0,  0,  0,  1, 0, 0,
-//    };
-//    return cubeData;
-//}
-
 - (GLfloat *)cubeData {
     static GLfloat cubeData[] = {
-        -1.0, -1.0,  0.0,
-        1.0, -1.0,  0.0,
-        0.0,1.0,0.0
+        -0.5,   0.5f,  0.0,   0,  0,  1, 0, 0,
+        -0.5f,  -0.5f,  0.0,  0,  0,  1, 0, 1,
+        0.5f,   -0.5f,  0.0,  0,  0,  1, 1, 1,
+        0.5,    -0.5f, 0.0,   0,  0,  1, 1, 1,
+        0.5f,  0.5f,  0.0,    0,  0,  1, 1, 0,
+        -0.5f,   0.5f,  0.0,  0,  0,  1, 0, 0,
     };
     return cubeData;
 }
@@ -60,15 +51,10 @@
     glBindVertexArrayOES(0);
 }
 - (void)draw:(HBGLToolContext *)glContext {
-    glBindAttribLocation(glContext.program, 0, "vPosition");
+    glBindAttribLocation(glContext.program, 0, "aPos");
     
     [glContext active];
     
-    static GLfloat cubeData[] = {
-        0.0f, 0.5f, 0.0f,
-        -0.5f, -0.5f, 0.0f,
-        0.5f, -0.5f, 0.0f
-    };
-    [glContext drawTriangles:cubeData vertexCount:3];
+    [glContext drawTriangles:[self cubeData] vertexCount:3];
 }
 @end
