@@ -34,5 +34,7 @@
     // Pass the selected object to the new view controller.
 }
 */
-
+- (void)sunli {
+    NSLog(@"HBBaseViewController  is sunli");
+}
 @end

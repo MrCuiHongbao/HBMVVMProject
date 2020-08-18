@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3A06D3232455158E0066132A /* HBSFViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A06D3222455158E0066132A /* HBSFViewController.swift */; };
 		3A098B7D22C61BE10007F5EB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A098B7C22C61BE10007F5EB /* AppDelegate.m */; };
 		3A098B8022C61BE10007F5EB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A098B7F22C61BE10007F5EB /* ViewController.m */; };
 		3A098B8322C61BE10007F5EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A098B8122C61BE10007F5EB /* Main.storyboard */; };
@@ -17,13 +16,18 @@
 		3A098B9522C61BE20007F5EB /* HBMVVMProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A098B9422C61BE20007F5EB /* HBMVVMProjectTests.m */; };
 		3A098BA022C61BE20007F5EB /* HBMVVMProjectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A098B9F22C61BE20007F5EB /* HBMVVMProjectUITests.m */; };
 		3A098BB022CB5EAA0007F5EB /* HBTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A098BAF22CB5EAA0007F5EB /* HBTabBarViewController.m */; };
+		3A0D764624C81384004145FE /* NSGLSharder.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A0D764524C81384004145FE /* NSGLSharder.m */; };
 		3A27E5CB243B728800EB4C85 /* smile.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 3A27E5CA243B728800EB4C85 /* smile.jpeg */; };
 		3A27E5D0243C7F3000EB4C85 /* bikini.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 3A27E5CE243C7F3000EB4C85 /* bikini.jpeg */; };
 		3A27E5D1243C7F3000EB4C85 /* timg.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 3A27E5CF243C7F3000EB4C85 /* timg.jpeg */; };
 		3A27E5D3243C851900EB4C85 /* smile.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A27E5D2243C851900EB4C85 /* smile.png */; };
+		3A313AD224C8305700C5CF66 /* HBGLTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A313AD124C8305700C5CF66 /* HBGLTools.m */; };
 		3A46208A23FE9C3E009A4609 /* HBGLDrawTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A46208923FE9C3E009A4609 /* HBGLDrawTools.m */; };
 		3A46208D23FE9C77009A4609 /* HBGLObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A46208C23FE9C77009A4609 /* HBGLObject.m */; };
 		3A46209023FEA32F009A4609 /* HBGLTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A46208E23FEA32F009A4609 /* HBGLTool.m */; };
+		3A5C98182493313A00F3215F /* HBGLKView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A5C98172493313A00F3215F /* HBGLKView.m */; };
+		3A5C981B249377C200F3215F /* HBCamereViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A5C981A249377C200F3215F /* HBCamereViewController.m */; };
+		3A5C981E2498BE6800F3215F /* HBCameraManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A5C981D2498BE6800F3215F /* HBCameraManager.m */; };
 		3A5DCB9B2440C22200890C82 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A5DCB9A2440C22200890C82 /* WebKit.framework */; };
 		3A5DCB9D2440C7AB00890C82 /* tangyan2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3A5DCB9C2440C7AB00890C82 /* tangyan2.jpg */; };
 		3A5FC701244DB137004AE2A6 /* HBNSLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A5FC700244DB137004AE2A6 /* HBNSLog.m */; };
@@ -53,10 +57,15 @@
 		3A8ED7D923D943B300823321 /* JDARVRCameraRender.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A8ED7D423D943B300823321 /* JDARVRCameraRender.m */; };
 		3A8ED7DA23D943B300823321 /* JDARVRGLObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A8ED7D523D943B300823321 /* JDARVRGLObject.m */; };
 		3A8ED7DE23D94CB700823321 /* HBGLToolContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A8ED7DD23D94CB700823321 /* HBGLToolContext.m */; };
+		3A932E4424C1358E00EA39E3 /* HBSwizzlingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A932E4324C1358E00EA39E3 /* HBSwizzlingViewController.m */; };
+		3A932E4724C1379C00EA39E3 /* HBSwizzlingViewController+HBSwizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A932E4624C1379C00EA39E3 /* HBSwizzlingViewController+HBSwizzling.m */; };
 		3A95901F23F6902100659C22 /* SimpleFragment.glsl in Resources */ = {isa = PBXBuildFile; fileRef = 3A95901D23F6902000659C22 /* SimpleFragment.glsl */; };
 		3A95902023F6902100659C22 /* SimpleVertex.glsl in Resources */ = {isa = PBXBuildFile; fileRef = 3A95901E23F6902100659C22 /* SimpleVertex.glsl */; };
 		3AAF315F2412865D001AF56F /* HBOrderTools.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3AAF315E2412865C001AF56F /* HBOrderTools.mm */; };
 		3AAF31622412AD67001AF56F /* HBStackForImplement.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AAF31612412AD67001AF56F /* HBStackForImplement.m */; };
+		3ABF318D24CC7EE100D3E213 /* HBSFViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ABF318C24CC7EE100D3E213 /* HBSFViewController.swift */; };
+		3ABF319224CC7F2A00D3E213 /* HBLRUCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ABF319124CC7F2A00D3E213 /* HBLRUCache.swift */; };
+		3ABF319524CC910200D3E213 /* HB_LRUCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ABF319424CC910200D3E213 /* HB_LRUCache.m */; };
 		3ABFE2F1246D4CF400B013A6 /* HBDisplayModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ABFE2F0246D4CF400B013A6 /* HBDisplayModel.m */; };
 		3ABFE2F4246D4D6500B013A6 /* HBDisplayViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ABFE2F3246D4D6500B013A6 /* HBDisplayViewModel.m */; };
 		3AD5C1412463B80600F3B29C /* HBNavModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A8A379722D4A49F00F12124 /* HBNavModule.m */; };
@@ -96,7 +105,6 @@
 		3AD5C1632463B80600F3B29C /* OpenGLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A8ED7C923D848C300823321 /* OpenGLViewController.m */; };
 		3AD5C1642463B80600F3B29C /* JDARVRGLContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A8ED7CD23D943B300823321 /* JDARVRGLContext.m */; };
 		3AD5C1652463B80600F3B29C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A098B7C22C61BE10007F5EB /* AppDelegate.m */; };
-		3AD5C1662463B80600F3B29C /* HBSFViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A06D3222455158E0066132A /* HBSFViewController.swift */; };
 		3AD5C1672463B80600F3B29C /* JDARVRCameraRender.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A8ED7D423D943B300823321 /* JDARVRCameraRender.m */; };
 		3AD5C1682463B80600F3B29C /* HBTabBarModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A8A379122D4813300F12124 /* HBTabBarModule.m */; };
 		3AD5C16A2463B80600F3B29C /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A5DCB9A2440C22200890C82 /* WebKit.framework */; };
@@ -148,7 +156,6 @@
 		21667C41AA03E778BB62F15C /* Pods-HBMVVMProject-HBMVVMProjectUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HBMVVMProject-HBMVVMProjectUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HBMVVMProject-HBMVVMProjectUITests/Pods-HBMVVMProject-HBMVVMProjectUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		2B45942D82D73B301B4F3299 /* libPods-HBMVVMProject-HBMVVMProjectTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HBMVVMProject-HBMVVMProjectTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A06D31B245514C20066132A /* HBMVVMProject-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HBMVVMProject-Bridging-Header.h"; sourceTree = "<group>"; };
-		3A06D3222455158E0066132A /* HBSFViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HBSFViewController.swift; sourceTree = "<group>"; };
 		3A098B7822C61BE10007F5EB /* HBMVVMProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HBMVVMProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A098B7B22C61BE10007F5EB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3A098B7C22C61BE10007F5EB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -167,10 +174,14 @@
 		3A098BA122C61BE20007F5EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3A098BAE22CB5EAA0007F5EB /* HBTabBarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HBTabBarViewController.h; sourceTree = "<group>"; };
 		3A098BAF22CB5EAA0007F5EB /* HBTabBarViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HBTabBarViewController.m; sourceTree = "<group>"; };
+		3A0D764424C81384004145FE /* NSGLSharder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSGLSharder.h; sourceTree = "<group>"; };
+		3A0D764524C81384004145FE /* NSGLSharder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSGLSharder.m; sourceTree = "<group>"; };
 		3A27E5CA243B728800EB4C85 /* smile.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = smile.jpeg; sourceTree = "<group>"; };
 		3A27E5CE243C7F3000EB4C85 /* bikini.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bikini.jpeg; sourceTree = "<group>"; };
 		3A27E5CF243C7F3000EB4C85 /* timg.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = timg.jpeg; sourceTree = "<group>"; };
 		3A27E5D2243C851900EB4C85 /* smile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = smile.png; sourceTree = "<group>"; };
+		3A313AD024C8305700C5CF66 /* HBGLTools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HBGLTools.h; sourceTree = "<group>"; };
+		3A313AD124C8305700C5CF66 /* HBGLTools.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HBGLTools.m; sourceTree = "<group>"; };
 		3A46208823FE9C3E009A4609 /* HBGLDrawTools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HBGLDrawTools.h; sourceTree = "<group>"; };
 		3A46208923FE9C3E009A4609 /* HBGLDrawTools.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HBGLDrawTools.m; sourceTree = "<group>"; };
 		3A46208B23FE9C77009A4609 /* HBGLObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HBGLObject.h; sourceTree = "<group>"; };
@@ -178,6 +189,12 @@
 		3A46208E23FEA32F009A4609 /* HBGLTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBGLTool.m; sourceTree = "<group>"; };
 		3A46208F23FEA32F009A4609 /* HBGLTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBGLTool.h; sourceTree = "<group>"; };
 		3A480819248A616700B9DF6E /* HBDrawTriangle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HBDrawTriangle.h; sourceTree = "<group>"; };
+		3A5C98162493313A00F3215F /* HBGLKView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HBGLKView.h; sourceTree = "<group>"; };
+		3A5C98172493313A00F3215F /* HBGLKView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HBGLKView.m; sourceTree = "<group>"; };
+		3A5C9819249377C200F3215F /* HBCamereViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HBCamereViewController.h; sourceTree = "<group>"; };
+		3A5C981A249377C200F3215F /* HBCamereViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HBCamereViewController.m; sourceTree = "<group>"; };
+		3A5C981C2498BE6800F3215F /* HBCameraManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HBCameraManager.h; sourceTree = "<group>"; };
+		3A5C981D2498BE6800F3215F /* HBCameraManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HBCameraManager.m; sourceTree = "<group>"; };
 		3A5DCB9A2440C22200890C82 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		3A5DCB9C2440C7AB00890C82 /* tangyan2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tangyan2.jpg; sourceTree = "<group>"; };
 		3A5FC6FF244DB137004AE2A6 /* HBNSLog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HBNSLog.h; sourceTree = "<group>"; };
@@ -233,12 +250,20 @@
 		3A8ED7D523D943B300823321 /* JDARVRGLObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDARVRGLObject.m; sourceTree = "<group>"; };
 		3A8ED7DC23D94CB700823321 /* HBGLToolContext.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HBGLToolContext.h; sourceTree = "<group>"; };
 		3A8ED7DD23D94CB700823321 /* HBGLToolContext.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HBGLToolContext.m; sourceTree = "<group>"; };
+		3A932E4224C1358E00EA39E3 /* HBSwizzlingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HBSwizzlingViewController.h; sourceTree = "<group>"; };
+		3A932E4324C1358E00EA39E3 /* HBSwizzlingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HBSwizzlingViewController.m; sourceTree = "<group>"; };
+		3A932E4524C1379C00EA39E3 /* HBSwizzlingViewController+HBSwizzling.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HBSwizzlingViewController+HBSwizzling.h"; sourceTree = "<group>"; };
+		3A932E4624C1379C00EA39E3 /* HBSwizzlingViewController+HBSwizzling.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "HBSwizzlingViewController+HBSwizzling.m"; sourceTree = "<group>"; };
 		3A95901D23F6902000659C22 /* SimpleFragment.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SimpleFragment.glsl; sourceTree = "<group>"; };
 		3A95901E23F6902100659C22 /* SimpleVertex.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SimpleVertex.glsl; sourceTree = "<group>"; };
 		3AAF315D2412865C001AF56F /* HBOrderTools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HBOrderTools.h; sourceTree = "<group>"; };
 		3AAF315E2412865C001AF56F /* HBOrderTools.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = HBOrderTools.mm; sourceTree = "<group>"; };
 		3AAF31602412AD67001AF56F /* HBStackForImplement.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HBStackForImplement.h; sourceTree = "<group>"; };
 		3AAF31612412AD67001AF56F /* HBStackForImplement.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HBStackForImplement.m; sourceTree = "<group>"; };
+		3ABF318C24CC7EE100D3E213 /* HBSFViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HBSFViewController.swift; sourceTree = "<group>"; };
+		3ABF319124CC7F2A00D3E213 /* HBLRUCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HBLRUCache.swift; sourceTree = "<group>"; };
+		3ABF319324CC910100D3E213 /* HB_LRUCache.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HB_LRUCache.h; sourceTree = "<group>"; };
+		3ABF319424CC910200D3E213 /* HB_LRUCache.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HB_LRUCache.m; sourceTree = "<group>"; };
 		3ABFE2EF246D4CF400B013A6 /* HBDisplayModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HBDisplayModel.h; sourceTree = "<group>"; };
 		3ABFE2F0246D4CF400B013A6 /* HBDisplayModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HBDisplayModel.m; sourceTree = "<group>"; };
 		3ABFE2F2246D4D6500B013A6 /* HBDisplayViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HBDisplayViewModel.h; sourceTree = "<group>"; };
@@ -387,6 +412,23 @@
 			path = mainFrame;
 			sourceTree = "<group>";
 		};
+		3A5C98152493310900F3215F /* HBCameraRender */ = {
+			isa = PBXGroup;
+			children = (
+				3A5C98162493313A00F3215F /* HBGLKView.h */,
+				3A5C98172493313A00F3215F /* HBGLKView.m */,
+				3A5C9819249377C200F3215F /* HBCamereViewController.h */,
+				3A5C981A249377C200F3215F /* HBCamereViewController.m */,
+				3A5C981C2498BE6800F3215F /* HBCameraManager.h */,
+				3A5C981D2498BE6800F3215F /* HBCameraManager.m */,
+				3A0D764424C81384004145FE /* NSGLSharder.h */,
+				3A0D764524C81384004145FE /* NSGLSharder.m */,
+				3A313AD024C8305700C5CF66 /* HBGLTools.h */,
+				3A313AD124C8305700C5CF66 /* HBGLTools.m */,
+			);
+			path = HBCameraRender;
+			sourceTree = "<group>";
+		};
 		3A5FC6FE244DB11A004AE2A6 /* BaseUtil */ = {
 			isa = PBXGroup;
 			children = (
@@ -399,6 +441,7 @@
 		3A8A379922D4A7F800F12124 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				3ABF318B24CC7EE100D3E213 /* swift */,
 				3A5DCB9C2440C7AB00890C82 /* tangyan2.jpg */,
 				3ADC09D32440BF470018D39E /* tangyan.jpg */,
 				3ADC09D124407DFB0018D39E /* BeatyViewController.h */,
@@ -415,7 +458,10 @@
 				3ADC09C9243ED4770018D39E /* HBBlockViewController.h */,
 				3ADC09CA243ED4770018D39E /* HBBlockViewController.m */,
 				3A06D31B245514C20066132A /* HBMVVMProject-Bridging-Header.h */,
-				3A06D3222455158E0066132A /* HBSFViewController.swift */,
+				3A932E4224C1358E00EA39E3 /* HBSwizzlingViewController.h */,
+				3A932E4324C1358E00EA39E3 /* HBSwizzlingViewController.m */,
+				3A932E4524C1379C00EA39E3 /* HBSwizzlingViewController+HBSwizzling.h */,
+				3A932E4624C1379C00EA39E3 /* HBSwizzlingViewController+HBSwizzling.m */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -482,6 +528,7 @@
 		3A8ED7C423D8486E00823321 /* openGL */ = {
 			isa = PBXGroup;
 			children = (
+				3A5C98152493310900F3215F /* HBCameraRender */,
 				3A95901D23F6902000659C22 /* SimpleFragment.glsl */,
 				3A95901E23F6902100659C22 /* SimpleVertex.glsl */,
 				3A8ED7DB23D94C9C00823321 /* GLTools */,
@@ -535,8 +582,19 @@
 				3AAF315E2412865C001AF56F /* HBOrderTools.mm */,
 				3AAF31602412AD67001AF56F /* HBStackForImplement.h */,
 				3AAF31612412AD67001AF56F /* HBStackForImplement.m */,
+				3ABF319324CC910100D3E213 /* HB_LRUCache.h */,
+				3ABF319424CC910200D3E213 /* HB_LRUCache.m */,
 			);
 			path = orderTools;
+			sourceTree = "<group>";
+		};
+		3ABF318B24CC7EE100D3E213 /* swift */ = {
+			isa = PBXGroup;
+			children = (
+				3ABF318C24CC7EE100D3E213 /* HBSFViewController.swift */,
+				3ABF319124CC7F2A00D3E213 /* HBLRUCache.swift */,
+			);
+			path = swift;
 			sourceTree = "<group>";
 		};
 		3ADE7C8C22CF4B7500B1E932 /* HBRouter */ = {
@@ -828,6 +886,8 @@
 				3ADC09D224407DFB0018D39E /* BeatyViewController.mm in Sources */,
 				3AAF31622412AD67001AF56F /* HBStackForImplement.m in Sources */,
 				3A8ED7DA23D943B300823321 /* JDARVRGLObject.m in Sources */,
+				3A5C981B249377C200F3215F /* HBCamereViewController.m in Sources */,
+				3A5C98182493313A00F3215F /* HBGLKView.m in Sources */,
 				3A8ED7BA23D82E3A00823321 /* MoneyModule.m in Sources */,
 				3AE93D80248E307100CAA7ED /* HBDrawTriangle.m in Sources */,
 				3A46208D23FE9C77009A4609 /* HBGLObject.m in Sources */,
@@ -835,6 +895,7 @@
 				3A8A37AB22D4B7DD00F12124 /* MineViewController.m in Sources */,
 				3A8ED7C723D8488700823321 /* OpenGLModule.m in Sources */,
 				3A46209023FEA32F009A4609 /* HBGLTool.m in Sources */,
+				3A932E4424C1358E00EA39E3 /* HBSwizzlingViewController.m in Sources */,
 				3ADE7C8B22CF480500B1E932 /* HBNavigationController.m in Sources */,
 				3A8A37B722D4BCE000F12124 /* MineModule.m in Sources */,
 				3A5FC701244DB137004AE2A6 /* HBNSLog.m in Sources */,
@@ -844,6 +905,7 @@
 				3A8ED7C023D82E6700823321 /* MoreViewController.m in Sources */,
 				3A8A37B122D4BCC500F12124 /* DisplayModule.m in Sources */,
 				3A8ED7D823D943B300823321 /* JDARVRGLGeometry.m in Sources */,
+				3ABF319524CC910200D3E213 /* HB_LRUCache.m in Sources */,
 				3A8ED7BD23D82E4F00823321 /* MoreModule.m in Sources */,
 				3A8ED7C323D82E7600823321 /* MoneyViewController.m in Sources */,
 				3ADC09CB243ED4770018D39E /* HBBlockViewController.m in Sources */,
@@ -854,17 +916,22 @@
 				3A8A37A522D4B7C200F12124 /* DisplayViewController.m in Sources */,
 				3A098B8B22C61BE20007F5EB /* main.m in Sources */,
 				3A8A37A822D4B7D100F12124 /* DiscoveryViewController.m in Sources */,
+				3A932E4724C1379C00EA39E3 /* HBSwizzlingViewController+HBSwizzling.m in Sources */,
 				3A46208A23FE9C3E009A4609 /* HBGLDrawTools.m in Sources */,
 				3ADE7C8F22CF4BC200B1E932 /* HBRouter.m in Sources */,
+				3ABF318D24CC7EE100D3E213 /* HBSFViewController.swift in Sources */,
 				3A8A37AE22D4BCB500F12124 /* HomeModule.m in Sources */,
 				3A8A37BA22D4C07100F12124 /* HBBaseViewController.m in Sources */,
 				3AAF315F2412865D001AF56F /* HBOrderTools.mm in Sources */,
 				3A8ED7CA23D848C300823321 /* OpenGLViewController.m in Sources */,
 				3ABFE2F1246D4CF400B013A6 /* HBDisplayModel.m in Sources */,
+				3A313AD224C8305700C5CF66 /* HBGLTools.m in Sources */,
+				3A5C981E2498BE6800F3215F /* HBCameraManager.m in Sources */,
 				3A8ED7D723D943B300823321 /* JDARVRGLContext.m in Sources */,
 				3A098B7D22C61BE10007F5EB /* AppDelegate.m in Sources */,
-				3A06D3232455158E0066132A /* HBSFViewController.swift in Sources */,
 				3A8ED7D923D943B300823321 /* JDARVRCameraRender.m in Sources */,
+				3A0D764624C81384004145FE /* NSGLSharder.m in Sources */,
+				3ABF319224CC7F2A00D3E213 /* HBLRUCache.swift in Sources */,
 				3A8A379222D4813300F12124 /* HBTabBarModule.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -926,7 +993,6 @@
 				3AD5C1632463B80600F3B29C /* OpenGLViewController.m in Sources */,
 				3AD5C1642463B80600F3B29C /* JDARVRGLContext.m in Sources */,
 				3AD5C1652463B80600F3B29C /* AppDelegate.m in Sources */,
-				3AD5C1662463B80600F3B29C /* HBSFViewController.swift in Sources */,
 				3AD5C1672463B80600F3B29C /* JDARVRCameraRender.m in Sources */,
 				3AD5C1682463B80600F3B29C /* HBTabBarModule.m in Sources */,
 			);

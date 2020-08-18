@@ -12,6 +12,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface HBBaseViewController : ViewController
 
+- (void)sunli;
 @end
 
 NS_ASSUME_NONNULL_END

@@ -124,10 +124,24 @@ std::vector<int> twoSum(std::vector<int>& nums, int target);
 //字符串翻转
 
 void revertString(char *ccc);
+//翻转整数
+int revertInt(int xxx);
 
-//最大堆
+//最大堆8
 
 void buildMaxHeap(int a[],int n);
+
+//字符串转整数
+int myatoi(std::string str);
+//删除排序数组中的重复元素，返回数组长度
+int deleteRepeatUnit(int *a,int length) ;
+
+int returnOnePick(int *a);
+
+//两数之和
+int* twoSum1(int* nums, int numsSize, int target, int* returnSize);
+
+int revertINT(int numbers);
 @end
 
 //NS_ASSUME_NONNULL_END

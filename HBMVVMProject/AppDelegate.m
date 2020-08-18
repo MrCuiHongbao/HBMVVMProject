@@ -17,11 +17,53 @@
 @end
 
 @implementation AppDelegate
+static int s_fatal_signals[] = {
+    SIGABRT,
+    SIGBUS,
+    SIGFPE,
+    SIGILL,
+    SIGSEGV,
+    SIGTRAP,
+    SIGTERM,
+    SIGKILL,
+};
+
+static int s_fatal_signal_num = sizeof(s_fatal_signals) / sizeof(s_fatal_signals[0]);
+
+void UncaughtExceptionHandler(NSException *exception) {
+    NSArray *exceptionArray = [exception callStackSymbols]; // 得到当前调用栈信息
+    NSString *exceptionReason = [exception reason];       // 非常重要，就是崩溃的原因
+    NSString *exceptionName = [exception name];           // 异常类型
+    NSLog(@"exceptionArray:%@",exceptionArray);
+    NSLog(@"exceptionReason:%@",exceptionReason);
+    NSLog(@"exceptionName:%@",exceptionName);
+
+}
+
+void SignalHandler(int code)
+{
+    NSLog(@"signal handler = %d",code);
+}
+
+void InitCrashReport()
+{
+    // 系统错误信号捕获
+    for (int i = 0; i < s_fatal_signal_num; ++i) {
+        signal(s_fatal_signals[i], SignalHandler);
+    }
+    
+    //oc 未捕获异常的捕获
+    NSSetUncaughtExceptionHandler(&UncaughtExceptionHandler);
+}
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    InitCrashReport();
+    
+    NSLog(@"NSRunLoop:%@",[NSRunLoop currentRunLoop]);
+    
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     
-    NSDictionary *viewsViewController = @{@"HBTabBarModule":@[@"HomeModule",@"DisplayModule",@"DiscoveryModule",@"MineModule",@"MoneyModule",@"MoreModule",@"OpenGLModule"],@"HBTabBarIconName":@[@"integral",@"all",@"cameraswitching",@"bussiness-man",@"category",@"cameraswitching",@"add-account"],@"HBTabBarTitle":@[@"首页",@"列表",@"类别",@"我的",@"财富",@"相机",@"openGL"]};
+    NSDictionary *viewsViewController = @{@"HBTabBarModule":@[@"HomeModule",@"DisplayModule",@"DiscoveryModule",@"MineModule",@"MoneyModule",@"MoreModule",@"OpenGLModule"],@"HBTabBarIconName":@[@"integral",@"all",@"cameraswitching",@"bussiness-man",@"category",@"cameraswitching",@"add-account"],@"HBTabBarTitle":@[@"首页",@"列表",@"类别",@"我的",@"财富",@"更多",@"openGL"]};
     UIViewController  *tabBar = [HBRouter openURL:@"router://HBTabBarModule/HBTabBaexportInterface" arg:viewsViewController error:nil completion:^(id  _Nullable object) {
         NSLog(@"object----->%@",object);
     }];

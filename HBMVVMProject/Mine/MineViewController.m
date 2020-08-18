@@ -20,10 +20,32 @@
 +(void)initialize {
     NSLog(@"MineViewController--------------->initialize");
 }
+- (void)cuihongbao2 {
+
+}
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+//    self.max = 100;
+    
     NSLog(@"MineViewController--------------->viewDidLoad");
     Class  class = object_getClass(self);
+    NSLog(@"-%p----%@",class,class);
+    NSLog(@"-%p----%@",[self class],[self class]);
+    NSLog(@"-%p----%@",[MineViewController class],[MineViewController class]);
+    
+    NSString *str = [NSNumber numberWithInt:11];
+    NSLog(@"str  isa :%@",object_getClass(str));
+    
+    NSObject *object = [NSObject new];
+    NSLog(@"object_getClass--------->%d",[object_getClass(self) isKindOfClass:[MineViewController class]]);
+    NSLog(@"object_getClass--------->%d",[object_getClass(self) isMemberOfClass:[MineViewController class]]);
+
+    NSLog(@"mineVC--------->%d",[object_getClass(self) isKindOfClass:object_getClass([MineViewController class])]);
+    NSLog(@"mineVC--------->%d",[object_getClass(self) isMemberOfClass:object_getClass([MineViewController class])]);
+    NSLog(@"MineViewController--------->%@",object_getClass([MineViewController class]));
+    NSLog(@"MineViewController--------->%d",objc_getMetaClass("MineViewController") ==object_getClass([MineViewController class]));
+    
     NSLog(@"class name is:%@",class);
 
     NSLog(@"self.class name is:%@",self.class);
@@ -84,5 +106,17 @@
     // Pass the selected object to the new view controller.
 }
 */
++(void)mineMe {
 
+}
+- (void)cuihongbao {
+
+}
+- (void)cuihongbao1 {
+
+}
+
+- (void)cuihongbao3:(NSArray *)array {
+
+}
 @end

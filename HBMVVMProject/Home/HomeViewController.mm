@@ -14,6 +14,8 @@
 #import "HBMVVMProject-Swift.h"
 #include <string>
 #include <vector>
+#include "HB_LRUCache.h"
+//#import "HBSwizzlingViewController.h"
 @interface HomeViewController ()<UITableViewDelegate,UITableViewDataSource>
 @property(nonatomic,strong)NSMutableArray *dataArray;
 @end
@@ -46,10 +48,10 @@
 //    int a[11] = {5,3,7,6,4,1,0,2,9,10,8};
     int length = sizeof(a)/sizeof(int);
 //    quickSort(a, length-1, 0, length-1);
-    buildMaxHeap(a, length);
-    for (int i=0; i<length-1; i++) {
-        printf("quick sort list is %d\n",a[i]);
-    }
+//    buildMaxHeap(a, length);
+//    for (int i=0; i<length-1; i++) {
+//        printf("quick sort list is %d\n",a[i]);
+//    }
     
 //    std::string  cccc = "cuihongbao";
 //    std::string  ssss = convertString(cccc, 3);
@@ -76,12 +78,41 @@
 //    int length1 = sizeof(a)/sizeof(int);
 
 //    buildMaxHeap(a, length);
+    
+    
+    id pcls = [HBBlockViewController class];
+    void *pp = &pcls;
+    [(__bridge id)pp saySomething];
+    
+    HBBlockViewController *p = [HBBlockViewController alloc];
+    [p saySomething];
+    
+    
+        int b[] = {1,1,3,3,3,4,4,5,6,8,8};
+    //    int b[] = {9,0,3,1,7};
+        int bcount = sizeof(a)/sizeof(int);
+    int index = deleteRepeatUnit(b, bcount);
+    printf("delete RepeatUnit count is:%d\n",index);
+    for (int i=0; i<length-1; i++) {
+        printf("deleteRepeatUnit list is %d\n",b[i]);
+    }
+    int c[] = {2,7,11,15};
+    int ccount = sizeof(c)/sizeof(int);
+    int *bb;
+    int *aaa = twoSum1(c, ccount, 9, bb);
+    NSLog(@"aaaaaaa---index-->%d------%d\n",aaa[0],aaa[1]);
+    
+    int revertInt = revertINT(4567);
+    NSLog(@"reverInt------>%d",revertInt);
+    
 }
 - (void)initTableView {
     self.dataArray = [NSMutableArray arrayWithCapacity:1.0];
-    [self.dataArray  addObject:@"美女图片"];
-    [self.dataArray  addObject:@"Block"];
-    [self.dataArray  addObject:@"SF"];
+//    for (int i=0; i<100; i++) {
+            [self.dataArray  addObject:@"美女图片"];
+        [self.dataArray  addObject:@"Block"];
+        [self.dataArray  addObject:@"SF"];
+//    }
     UITableView *tempTableView = [[UITableView alloc] initWithFrame:self.view.bounds style:UITableViewStylePlain];
     tempTableView.delegate = self;
     tempTableView.dataSource = self;
@@ -97,6 +128,24 @@
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"myCell"];
     cell.textLabel.text = [self.dataArray objectAtIndex:indexPath.row];
     cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
+//    cell.imageView.image = [UIImage imageNamed:@"tangyan.jpg"];
+//    cell.imageView.layer.cornerRadius = 4.0;
+//    cell.imageView.layer.borderWidth = 5.0;
+//
+//    cell.textLabel.layer.cornerRadius = 4.0;
+//    cell.textLabel.layer.borderWidth = 5.0;
+//    UILabel *titleLabel = [[UILabel alloc] initWithFrame:CGRectMake(100, 10, 50.0, 35.0)];
+//    titleLabel.text = @"1111";
+//    titleLabel.layer.cornerRadius = 4.0;
+//    titleLabel.layer.borderWidth = 5.0;
+//    [cell.contentView addSubview:titleLabel];
+    
+//    UIImageView *view = [[UIImageView alloc] initWithFrame:CGRectMake(320, 10, 100, 100)];
+//    view.image = [UIImage imageWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@"tangyan" ofType:@"jpg"]];
+//    view.layer.cornerRadius = 4.0;
+//    view.layer.borderWidth = 5.0;
+//    [cell.contentView addSubview:view];
+        
     return cell;
 }
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
@@ -109,14 +158,29 @@
         }
             break;
         case 1:{
+            HBBaseViewController *swizzling = [[HBBaseViewController alloc] init];
+            
+//            HBSwizzlingViewController *swizzling = [[HBSwizzlingViewController alloc] init];
+            [swizzling sunli];
+            [self.navigationController pushViewController:swizzling animated:YES];
+            return;
             HBBlockViewController *block = [[HBBlockViewController alloc] init];
             [self.navigationController pushViewController:block animated:YES];
+            NSLog(@"currentRunloop:%@",[NSRunLoop currentRunLoop]);
         }
         break;
         case 2: {
-            HBSFViewController *sf = [[HBSFViewController alloc] init];
-            [self.navigationController pushViewController:sf animated:YES];
+//            HBSFViewController *sf = [[HBSFViewController alloc] init];
+//            [self.navigationController pushViewController:sf animated:YES];
+            
+            HB_LRUCache *cache = [[HB_LRUCache alloc] initWithCapacity:2];
+            [cache putValue:1 ForKey:1];
         }break;
+        case 3: {
+            NSArray *array = [NSArray arrayWithObjects:@(1), nil];
+            [array objectAtIndex:2];
+        }
+            break;
         default:
             break;
     }

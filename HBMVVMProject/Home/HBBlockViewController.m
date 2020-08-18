@@ -7,13 +7,26 @@
 //
 
 #import "HBBlockViewController.h"
+#import <mach/task.h>
+#import <mach/mach.h>
 
 @interface HBBlockViewController ()
 
 @end
 
 @implementation HBBlockViewController
-
+// 当前 app 内存使用量
+- (NSInteger)useMemoryForApp {
+    task_vm_info_data_t vmInfo;
+    mach_msg_type_number_t count = TASK_VM_INFO_COUNT;
+    kern_return_t kernelReturn = task_info(mach_task_self(), TASK_VM_INFO, (task_info_t) &vmInfo, &count);
+    if (kernelReturn == KERN_SUCCESS) {
+        int64_t memoryUsageInByte = (int64_t) vmInfo.phys_footprint;
+        return memoryUsageInByte / 1024 / 1024;
+    } else {
+        return -1;
+    }
+}
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
@@ -41,8 +54,13 @@
     NSLog(@"尝试过取消第二个任务");
     
 //    dispatch_group_wait(<#dispatch_group_t  _Nonnull group#>, <#dispatch_time_t timeout#>)
+    
+    NSInteger useMemoryForApp = [self useMemoryForApp];
+    NSLog(@"当前使用内存:%dM",useMemoryForApp);
 }
-
+- (void)saySomething {
+    NSLog(@"NB %s-%d",__func__,self.editing);
+}
 /*
 #pragma mark - Navigation
 

@@ -519,6 +519,7 @@ void heapify(int a[],int start, int end) {
             swap(&a[dad],&a[son]);
           dad = son;
           son = dad * 2 + 1;
+            heapify(a, start, end);
         }
     }
 }
@@ -526,5 +527,63 @@ void swap(int *a, int *b) {
     int temp = *a;
     *a = *b;
     *b = temp;
+}
+
+int myatoi(string str) {
+    int i=0;
+    int flag = 1;
+    int resu=0;
+    while(str[i]== ' ') i++;
+    if(str[i] == '-'){
+        flag = -1;
+        i++;
+    }
+    for(;i<str.size()&&isdigit(str[i]);i++) {
+           resu = resu*10+(str[i]-'0');
+           if(resu >= INT_MAX&&flag ==1) return INT_MAX;
+           if(resu >INT_MAX&&flag ==-1)  return INT_MIN;
+    }
+    return flag*resu;
+}
+int deleteRepeatUnit(int *a,int length){
+    if (length == 0) {
+        return  0;
+    }
+    int i=0;
+    for (int j= i; j<length-1; j++) {
+        if (a[i]!=a[j]) {
+            i++;
+            a[i] = a[j];
+        }
+    }
+    return i+1;
+}
+int returnOnePick(int *a) {
+    return 0;
+}
+int* twoSum1(int* nums, int numsSize, int target, int* returnSize){
+    for(int i=0;i<numsSize-1;i++) {
+        int tt = target - nums[i];
+        for(int j=i+1;j<numsSize-1;j++) {
+            if(tt == nums[j]) {
+                printf("number---->%d------>%d\n",i,j);
+               int a[] = {i,j};
+               returnSize = a;
+            }
+        }
+    }
+    return returnSize;
+}
+int revertINT(int numbers) {
+    int x = numbers;
+    int b;
+    int sum = 0;
+    while (x) {
+        b = x%10;
+        sum = sum*10+b;
+        x/=10;
+    }
+    
+    return sum;
 }
 @end

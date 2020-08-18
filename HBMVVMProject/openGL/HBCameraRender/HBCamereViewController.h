@@ -1,8 +1,8 @@
 //
-//  HBBlockViewController.h
+//  HBCamereViewController.h
 //  HBMVVMProject
 //
-//  Created by hongbao.cui on 2020/4/9.
+//  Created by hongbao.cui on 2020/6/12.
 //  Copyright © 2020 hongbao.cui. All rights reserved.
 //
 
@@ -10,9 +10,8 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface HBBlockViewController : UIViewController
+@interface HBCamereViewController : UIViewController
 
-- (void)saySomething;
 @end
 
 NS_ASSUME_NONNULL_END
